@@ -1,0 +1,150 @@
+"Notes"	"County"	"County Code"	Deaths	Population	Crude Rate
+	"Adams County, OH"	"39001"	Suppressed	279650	Suppressed
+	"Allen County, OH"	"39003"	47	1039932	4.5
+	"Ashland County, OH"	"39005"	Suppressed	533277	Suppressed
+	"Ashtabula County, OH"	"39007"	21	986637	2.1
+	"Athens County, OH"	"39009"	Suppressed	653762	Suppressed
+	"Auglaize County, OH"	"39011"	Suppressed	458118	Suppressed
+	"Belmont County, OH"	"39013"	15	685153	Unreliable
+	"Brown County, OH"	"39015"	11	439070	Unreliable
+	"Butler County, OH"	"39017"	112	3771672	3.0
+	"Carroll County, OH"	"39019"	Suppressed	277588	Suppressed
+	"Champaign County, OH"	"39021"	Suppressed	391116	Suppressed
+	"Clark County, OH"	"39023"	69	1355181	5.1
+	"Clermont County, OH"	"39025"	18	2028554	Unreliable
+	"Clinton County, OH"	"39027"	Suppressed	419367	Suppressed
+	"Columbiana County, OH"	"39029"	15	1042890	Unreliable
+	"Coshocton County, OH"	"39031"	Suppressed	366403	Suppressed
+	"Crawford County, OH"	"39033"	Suppressed	422043	Suppressed
+	"Cuyahoga County, OH"	"39035"	1217	12518986	9.7
+	"Darke County, OH"	"39037"	Suppressed	518919	Suppressed
+	"Defiance County, OH"	"39039"	Suppressed	383299	Suppressed
+	"Delaware County, OH"	"39041"	12	1950991	Unreliable
+	"Erie County, OH"	"39043"	Suppressed	753099	Suppressed
+	"Fairfield County, OH"	"39045"	21	1525591	1.4
+	"Fayette County, OH"	"39047"	Suppressed	287342	Suppressed
+	"Franklin County, OH"	"39049"	978	12577893	7.8
+	"Fulton County, OH"	"39051"	Suppressed	423722	Suppressed
+	"Gallia County, OH"	"39053"	Suppressed	302505	Suppressed
+	"Geauga County, OH"	"39055"	11	938206	Unreliable
+	"Greene County, OH"	"39057"	22	1656455	1.3
+	"Guernsey County, OH"	"39059"	10	393060	Unreliable
+	"Hamilton County, OH"	"39061"	693	8096212	8.6
+	"Hancock County, OH"	"39063"	Suppressed	756156	Suppressed
+	"Hardin County, OH"	"39065"	Suppressed	315918	Suppressed
+	"Harrison County, OH"	"39067"	Suppressed	153930	Suppressed
+	"Henry County, OH"	"39069"	Suppressed	275764	Suppressed
+	"Highland County, OH"	"39071"	Suppressed	431324	Suppressed
+	"Hocking County, OH"	"39073"	12	286106	Unreliable
+	"Holmes County, OH"	"39075"	Suppressed	436920	Suppressed
+	"Huron County, OH"	"39077"	Suppressed	586530	Suppressed
+	"Jackson County, OH"	"39079"	11	326511	Unreliable
+	"Jefferson County, OH"	"39081"	31	669316	4.6
+	"Knox County, OH"	"39083"	12	613731	Unreliable
+	"Lake County, OH"	"39085"	21	2296762	0.9
+	"Lawrence County, OH"	"39087"	19	608788	Unreliable
+	"Licking County, OH"	"39089"	35	1719497	2.0
+	"Logan County, OH"	"39091"	Suppressed	454382	Suppressed
+	"Lorain County, OH"	"39093"	89	3061037	2.9
+	"Lucas County, OH"	"39095"	276	4333287	6.4
+	"Madison County, OH"	"39097"	Suppressed	438901	Suppressed
+	"Mahoning County, OH"	"39099"	202	2315592	8.7
+	"Marion County, OH"	"39101"	Suppressed	654662	Suppressed
+	"Medina County, OH"	"39103"	16	1769681	Unreliable
+	"Meigs County, OH"	"39105"	Suppressed	232253	Suppressed
+	"Mercer County, OH"	"39107"	Suppressed	409483	Suppressed
+	"Miami County, OH"	"39109"	Suppressed	1048006	Suppressed
+	"Monroe County, OH"	"39111"	Suppressed	141779	Suppressed
+	"Montgomery County, OH"	"39113"	445	5331556	8.3
+	"Morgan County, OH"	"39115"	Suppressed	147399	Suppressed
+	"Morrow County, OH"	"39117"	0	350933	Unreliable
+	"Muskingum County, OH"	"39119"	13	860161	Unreliable
+	"Noble County, OH"	"39121"	Suppressed	144440	Suppressed
+	"Ottawa County, OH"	"39123"	Suppressed	408759	Suppressed
+	"Paulding County, OH"	"39125"	Suppressed	189724	Suppressed
+	"Perry County, OH"	"39127"	Suppressed	360445	Suppressed
+	"Pickaway County, OH"	"39129"	12	573163	Unreliable
+	"Pike County, OH"	"39131"	17	281912	Unreliable
+	"Portage County, OH"	"39133"	21	1623268	1.3
+	"Preble County, OH"	"39135"	Suppressed	413698	Suppressed
+	"Putnam County, OH"	"39137"	Suppressed	340022	Suppressed
+	"Richland County, OH"	"39139"	27	1216445	2.2
+	"Ross County, OH"	"39141"	12	772247	Unreliable
+	"Sandusky County, OH"	"39143"	Suppressed	595393	Suppressed
+	"Scioto County, OH"	"39145"	22	767170	2.9
+	"Seneca County, OH"	"39147"	Suppressed	555599	Suppressed
+	"Shelby County, OH"	"39149"	Suppressed	488454	Suppressed
+	"Stark County, OH"	"39151"	142	3734394	3.8
+	"Summit County, OH"	"39153"	294	5409703	5.4
+	"Trumbull County, OH"	"39155"	106	2027644	5.2
+	"Tuscarawas County, OH"	"39157"	12	923932	Unreliable
+	"Union County, OH"	"39159"	Suppressed	555880	Suppressed
+	"Van Wert County, OH"	"39161"	Suppressed	284122	Suppressed
+	"Vinton County, OH"	"39163"	Suppressed	131373	Suppressed
+	"Warren County, OH"	"39165"	23	2258580	1.0
+	"Washington County, OH"	"39167"	Suppressed	607611	Suppressed
+	"Wayne County, OH"	"39169"	10	1156009	Unreliable
+	"Williams County, OH"	"39171"	Suppressed	370883	Suppressed
+	"Wood County, OH"	"39173"	Suppressed	1296476	Suppressed
+	"Wyandot County, OH"	"39175"	Suppressed	221907	Suppressed
+"Total"			5358	116212311	4.6
+"---"
+"Dataset: Underlying Cause of Death, 1999-2020"
+"Query Parameters:"
+"ICD-10 Codes: U01.4 (Terrorism involving firearms); X93 (Assault by handgun discharge); X94 (Assault by rifle, shotgun and"
+"larger firearm discharge); X95 (Assault by other and unspecified firearm discharge)"
+"States: Ohio (39)"
+"Year/Month: 2011; 2012; 2013; 2014; 2015; 2016; 2017; 2018; 2019; 2020"
+"Group By: County"
+"Show Totals: True"
+"Show Zero Values: True"
+"Show Suppressed: True"
+"Calculate Rates Per: 100,000"
+"Rate Options: Default intercensal populations for years 2001-2009 (except Infant Age Groups)"
+"---"
+"Help: See http://wonder.cdc.gov/wonder/help/ucd.html for more information."
+"---"
+"Query Date: Aug 21, 2023 3:28:02 PM"
+"---"
+"Suggested Citation: Centers for Disease Control and Prevention, National Center for Health Statistics. National Vital Statistics"
+"System, Mortality 1999-2020 on CDC WONDER Online Database, released in 2021. Data are from the Multiple Cause of Death Files,"
+"1999-2020, as compiled from data provided by the 57 vital statistics jurisdictions through the Vital Statistics Cooperative"
+"Program. Accessed at http://wonder.cdc.gov/ucd-icd10.html on Aug 21, 2023 3:28:02 PM"
+"---"
+Caveats:
+"1. As of April 3, 2017, the underlying cause of death has been revised for 125 deaths in 2014. More information:"
+"http://wonder.cdc.gov/wonder/help/ucd.html#2014-Revision."
+"2. Data are Suppressed when the data meet the criteria for confidentiality constraints. More information:"
+"http://wonder.cdc.gov/wonder/help/ucd.html#Assurance of Confidentiality."
+"3. Death rates are flagged as Unreliable when the rate is calculated with a numerator of 20 or less. More information:"
+"http://wonder.cdc.gov/wonder/help/ucd.html#Unreliable."
+"4. The population figures for year 2020 are bridged-race estimates of the July 1 resident population, from the Vintage 2020"
+"postcensal series released by NCHS on September 22, 2021. The population figures for year 2019 are bridged-race estimates of the"
+"July 1 resident population, from the Vintage 2019 postcensal series released by NCHS on July 9, 2020. The population figures for"
+"year 2018 are bridged-race estimates of the July 1 resident population, from the Vintage 2018 postcensal series released by NCHS"
+"on June 25, 2019. The population figures for year 2017 are bridged-race estimates of the July 1 resident population, from the"
+"Vintage 2017 postcensal series released by NCHS on June 27, 2018. The population figures for year 2016 are bridged-race"
+"estimates of the July 1 resident population, from the Vintage 2016 postcensal series released by NCHS on June 26, 2017. The"
+"population figures for year 2015 are bridged-race estimates of the July 1 resident population, from the Vintage 2015 postcensal"
+"series released by NCHS on June 28, 2016. The population figures for year 2014 are bridged-race estimates of the July 1 resident"
+"population, from the Vintage 2014 postcensal series released by NCHS on June 30, 2015. The population figures for year 2013 are"
+"bridged-race estimates of the July 1 resident population, from the Vintage 2013 postcensal series released by NCHS on June 26,"
+"2014. The population figures for year 2012 are bridged-race estimates of the July 1 resident population, from the Vintage 2012"
+"postcensal series released by NCHS on June 13, 2013. The population figures for year 2011 are bridged-race estimates of the July"
+"1 resident population, from the Vintage 2011 postcensal series released by NCHS on July 18, 2012. Population figures for 2010"
+"are April 1 Census counts. The population figures for years 2001 - 2009 are bridged-race estimates of the July 1 resident"
+"population, from the revised intercensal county-level 2000 - 2009 series released by NCHS on October 26, 2012. Population"
+"figures for 2000 are April 1 Census counts. Population figures for 1999 are from the 1990-1999 intercensal series of July 1"
+"estimates. Population figures for the infant age groups are the number of live births. <br/><b>Note:</b> Rates and population"
+"figures for years 2001 - 2009 differ slightly from previously published reports, due to use of the population estimates which"
+"were available at the time of release."
+"5. The population figures used in the calculation of death rates for the age group 'under 1 year' are the estimates of the"
+"resident population that is under one year of age. More information: http://wonder.cdc.gov/wonder/help/ucd.html#Age Group."
+"6. On March 11, 2021, the 2019 mortality data on CDC WONDER was updated with the 2019 mortality data updated by NCHS on March 4,"
+"2021 to include corrected information for residents of Texas affecting 5 records previously coded to cause code *U01.4,"
+"Terrorism involving firearms (homicide). The underlying and multiple cause of death codes for 5 records were corrected in the"
+"2019 data. Underlying and multiple cause of death codes for those 5 records were recoded to Assault (homicide) by other and"
+"unspecified firearm discharge, ICD-10 code X95. The corrected final death records replaces the data released on December 22,"
+"2020."
+"7. Changes to cause of death classification affect reporting trends. More information:"
+"http://wonder.cdc.gov/wonder/help/ucd.html#ICD-10 Changes."

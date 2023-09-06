@@ -1,0 +1,98 @@
+"Notes"	"Residence State"	"Residence State Code"	Deaths	Population	Crude Rate
+	"Alabama"	"01"	2792	24792342	11.3
+	"Alaska"	"02"	187	3665487	5.1
+	"Arizona"	"04"	1880	36424396	5.2
+	"Arkansas"	"05"	1255	15113933	8.3
+	"California"	"06"	7788	196913018	4.0
+	"Colorado"	"08"	1167	28886157	4.0
+	"Connecticut"	"09"	450	17906152	2.5
+	"Delaware"	"10"	295	4934512	6.0
+	"District of Columbia"	"11"	711	3461120	20.5
+	"Florida"	"12"	5537	108072630	5.1
+	"Georgia"	"13"	4288	53446047	8.0
+	"Hawaii"	"15"	91	7126475	1.3
+	"Idaho"	"16"	141	9170032	1.5
+	"Illinois"	"17"	5125	63343369	8.1
+	"Indiana"	"18"	2200	33791020	6.5
+	"Iowa"	"19"	298	15860934	1.9
+	"Kansas"	"20"	654	14607788	4.5
+	"Kentucky"	"21"	1396	22432114	6.2
+	"Louisiana"	"22"	3330	23202184	14.4
+	"Maine"	"23"	68	6777251	1.0
+	"Maryland"	"24"	2550	30474458	8.4
+	"Massachusetts"	"25"	534	34657672	1.5
+	"Michigan"	"26"	2950	50050949	5.9
+	"Minnesota"	"27"	613	28322933	2.2
+	"Mississippi"	"28"	2279	14829395	15.4
+	"Missouri"	"29"	3014	30751802	9.8
+	"Montana"	"30"	146	5420202	2.7
+	"Nebraska"	"31"	208	9728612	2.1
+	"Nevada"	"32"	803	15540789	5.2
+	"New Hampshire"	"33"	65	6860428	0.9
+	"New Jersey"	"34"	1175	45207341	2.6
+	"New Mexico"	"35"	891	10530330	8.5
+	"New York"	"36"	2384	98004372	2.4
+	"North Carolina"	"37"	3394	52574851	6.5
+	"North Dakota"	"38"	77	3837344	2.0
+	"Ohio"	"39"	3547	58631793	6.0
+	"Oklahoma"	"40"	1197	19854111	6.0
+	"Oregon"	"41"	555	21142267	2.6
+	"Pennsylvania"	"42"	3612	64320415	5.6
+	"Rhode Island"	"44"	88	5365021	1.6
+	"South Carolina"	"45"	2406	25832291	9.3
+	"South Dakota"	"46"	105	4450363	2.4
+	"Tennessee"	"47"	2953	34436454	8.6
+	"Texas"	"48"	7946	146114367	5.4
+	"Utah"	"49"	278	16292892	1.7
+	"Vermont"	"50"	42	3164775	1.3
+	"Virginia"	"51"	2177	42928315	5.1
+	"Washington"	"53"	1116	38321480	2.9
+	"West Virginia"	"54"	396	8948684	4.4
+	"Wisconsin"	"55"	1126	29260473	3.8
+	"Wyoming"	"56"	71	2896430	2.5
+"Total"			88351	1648678570	5.4
+"---"
+"Dataset: Provisional Mortality Statistics, 2018 through Last Month"
+"Query Parameters:"
+"UCD - ICD-10 Codes: U01.4 (Terrorism involving firearms); X93 (Assault by handgun discharge); X94 (Assault by rifle, shotgun and"
+"larger firearm discharge); X95 (Assault by other and unspecified firearm discharge)"
+"Year/Month: 2018; 2019; 2020; 2021; 2022 (provisional)"
+"Group By: Residence State"
+"Show Totals: True"
+"Show Zero Values: False"
+"Show Suppressed: False"
+"Calculate Rates Per: 100,000"
+"Rate Options: Default intercensal populations for years 2001-2009 (except Infant Age Groups)"
+"---"
+"Help: See http://wonder.cdc.gov/wonder/help/mcd-provisional.html for more information."
+"---"
+"Query Date: Aug 21, 2023 3:22:30 PM"
+"---"
+"Suggested Citation: Centers for Disease Control and Prevention, National Center for Health Statistics. National Vital Statistics"
+"System, Provisional Mortality on CDC WONDER Online Database. Data are from the final Multiple Cause of Death Files, 2018-2021,"
+"and from provisional data for years 2022-2023, as compiled from data provided by the 57 vital statistics jurisdictions through"
+"the Vital Statistics Cooperative Program. Accessed at http://wonder.cdc.gov/mcd-icd10-provisional.html on Aug 21, 2023 3:22:30"
+"PM"
+"---"
+Caveats:
+"1. The population figures for years 2021 and later are single-race estimates of the July 1 resident population, based on the"
+"Blended Base produced by the US Census Bureau in lieu of the April 1, 2020 decennial population count, from the Vintage 2021"
+"postcensal series released by the Census Bureau on June 30, 2022. The population figures for year 2020 are single-race estimates"
+"of the July 1 resident population, from the Vintage 2020 postcensal series based on April 2010 Census, released by the Census"
+"Bureau on July 27, 2021. The population figures for year 2019 are single-race estimates of the July 1 resident population, from"
+"the Vintage 2019 postcensal series based on April 2010 Census, released by the Census Bureau on June 25, 2020. The population"
+"figures for year 2018 are single-race estimates of the July 1 resident population, from the Vintage 2018 postcensal series based"
+"on April 2010 Census, released by the Census Bureau on June 20, 2019. More information:"
+"http://wonder.cdc.gov/wonder/help/mcd-provisional.html#Population Data."
+"2. The population figures used in the calculation of death rates for the age group 'under 1 year' are the estimates of the"
+"resident population that is under one year of age. More information: http://wonder.cdc.gov/wonder/help/mcd-provisional.html#Age"
+"Group."
+"3. On March 11, 2021, the 2019 mortality data on CDC WONDER was updated with the 2019 mortality data updated by NCHS on March 4,"
+"2021 to include corrected information for residents of Texas affecting 5 records previously coded to cause code *U01.4,"
+"Terrorism involving firearms (homicide). The underlying and multiple cause of death codes for 5 records were corrected in the"
+"2019 data. Underlying and multiple cause of death codes for those 5 records were recoded to Assault (homicide) by other and"
+"unspecified firearm discharge, ICD-10 code X95. The corrected final death records replaces the data released on December 22,"
+"2020."
+"4. Changes to cause of death classification affect reporting trends. More information:"
+"http://wonder.cdc.gov/wonder/help/mcd-provisional.html#ICD-10 Changes."
+"5. Deaths occurring through July 22, 2023 as of August 06, 2023."
