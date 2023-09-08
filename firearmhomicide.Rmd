@@ -1,10 +1,10 @@
 ---
 title: "Firearm Homicide"
-author: "Shelby Level"
+author: "Ohio Alliance for Population Health"
 format: 
   html:
     theme: united
-    font: Georgia
+    font: 'Georgia'
     fontsize: 1.0em
 self-contained: true
 editor_options: 
@@ -13,28 +13,28 @@ output: html_document
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(cache = FALSE, echo = TRUE, warning = FALSE, message = FALSE)
+knitr::opts_chunk$set(cache = FALSE, echo = FALSE, warning = FALSE, message = FALSE)
 ```
 
-# Background 
+## Background 
 The OHIO Alliance for Population Health (OAPH) is a statewide collaborative focused on improving the health of all Ohioans by solving the most complex and pressing population health concerns across the state. In line with OAPH’s overarching mission, this report aims to identify disparities in gun violence mortality among Ohioans and consider how these disparities can be addressed to improve health and wellbeing across the state. 
 
-# Methodology 
+## Methodology 
 This report examines firearm homicide deaths across national and state levels over an extended period of time.  
  
 CDC WONDER collects and maintains data regarding deaths and their causes. All data were extracted from CDC WONDER using provisional or final mortality data.  
  
 All maps, graphs, and other figures for the United States and Ohio that are presented in this report were produced using R, RStudio, ggplot2, sf, tidyverse, and tidycensus. 
 
-# Key Findings 
-In 2022, firearms accounted for 79.1% of all homicide deaths in the United States 
-In 2022, firearms accounted for 79.4% of all homicide deaths in Ohio 
-In the past 10 years (2013-2022), homicide deaths by firearms have increased 66.9% 
-Since 1999, homicide deaths by firearm have increased 52.5%  
-In 2022 Ohio ranked 32 (out of 51 states, with rank 1 indicating the lowest rate) in firearm homicide mortality with a reported rate of 6.3 deaths per 100,000 population, 6.8% higher than the national average 
-Americans ages 20-24 experience the highest rates of gun violence mortality  
-Ohioans ages 20-24 experience the highest rates of gun violence mortality  
-In 2022, men were over five times as likely to be killed by gun violence than women 
+## Key Findings 
+* In 2022, firearms accounted for 79.1% of all homicide deaths in the United States 
+* In 2022, firearms accounted for 79.4% of all homicide deaths in Ohio 
+* In the past 10 years (2013-2022), homicide deaths by firearms have increased 66.9% 
+* Since 1999, homicide deaths by firearm have increased 52.5%  
+* In 2022 Ohio ranked 32 (out of 51 states, with rank 1 indicating the lowest rate) in firearm homicide mortality with a reported rate of 6.3 deaths per 100,000 population, 6.8% higher than the national average 
+* Americans ages 20-24 experience the highest rates of gun violence mortality  
+* Ohioans ages 20-24 experience the highest rates of gun violence mortality  
+* In 2022, men were over five times as likely to be killed by gun violence than women 
 
 ```{r loading packages}
 library(tidyverse)
@@ -79,7 +79,10 @@ county %>% mutate(GEOID=as.integer(GEOID)) -> county
 
 ```
 
+## Firearm Homicide Deaths by State, 2022
+
 ```{r 2022 national map by state}
+
 #Import homicide data set
 read.delim(file='US.AllFirearmHomicide.State.2022.txt') -> homicide
 
@@ -106,7 +109,7 @@ c('1.2 - 3.2','3.3 - 6.3','6.4 - 21') -> legend.labels
 #Create map
 ggplot() +
   
-  ggtitle("Firearm Homicide Deaths by State, 2022") +
+  #ggtitle("Firearm Homicide Deaths by State, 2022") +
   
   geom_sf(data = homicide, aes(fill = Breaks), color = "black",size=.4, alpha=1) +
   
@@ -133,6 +136,8 @@ ggplot() +
   theme(legend.position = 'bottom')
 ```
 
+## Firearm Homicide Deaths by State, 2018-2022
+
 ```{r 2018-22 national map by state}
 read.delim(file='US.AllFirearmHomicide.State.2018-22.txt') -> homicide
 
@@ -157,7 +162,7 @@ c('0.9 - 2.6','2.7 - 6.0','6.1 - 20.5') -> legend.labels
 #Create map
 ggplot() +
   
-  ggtitle("Firearm Homicide Deaths by State, 2018-2022") +
+  #ggtitle("Firearm Homicide Deaths by State, 2018-2022") +
   
   geom_sf(data = homicide, aes(fill = Breaks), color = "black",size=.4, alpha=1) +
   
@@ -182,6 +187,8 @@ ggplot() +
         axis.ticks.y=element_blank()) +
   theme(legend.position = 'bottom')
 ```
+
+## Firearm Homicide Deaths by State, 2013-2017
 
 ```{r 2013-17 national map by state}
 read.delim(file='US.AllFirearmHomicide.State.2013-17.txt') -> homicide
@@ -207,7 +214,7 @@ c('0.6 - 1.9','2.0 - 4.4','4.5 - 12.6') -> legend.labels
 #Create map
 ggplot() +
   
-  ggtitle("Firearm Homicide Deaths by State, 2013-2017") +
+  #ggtitle("Firearm Homicide Deaths by State, 2013-2017") +
   
   geom_sf(data = homicide, aes(fill = Breaks), color = "black",size=.4, alpha=1) +
   
@@ -233,6 +240,8 @@ ggplot() +
   theme(legend.position = 'bottom')
 ```
 
+## U.S. Firearm Homicide Deaths by Year, 1999 - 2022
+
 ```{r us time series line chart 1999-2022}
 #Import 1999-2020 homicide data set
 read.delim(file='US.AllFirearmHomicide.Year.1999-2020.txt') -> homicide
@@ -252,13 +261,13 @@ homicide %>% mutate(Rate=(Deaths/Population)*100000) -> homicide
 #Create plot
 ggplot(homicide, aes(x=Year.Code,y=Rate)) +
   
-  ggtitle("U.S. Firearm Homicide Deaths by Year \n 1999 - 2022") +
+  #ggtitle("U.S. Firearm Homicide Deaths by Year \n 1999 - 2022") +
   
   #Show trend line (smoothed data)
-  geom_smooth(color="#003a70",span=0.75, 
+  geom_smooth(color="#004023",span=0.75, 
   se=TRUE, size=1,fill="gray85") +  
   
-  geom_col(fill="#00694e",alpha=.85) + 
+  geom_col(fill="#003a70",alpha=.80) + 
   
   geom_text(aes(label= round(Rate, 1)), size=3.3, color ="black", family='Georgia', fontface='bold', vjust=1.75) +
   
