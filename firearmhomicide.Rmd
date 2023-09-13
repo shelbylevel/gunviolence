@@ -1,15 +1,17 @@
 ---
 title: "Firearm Homicide"
 author: "Ohio Alliance for Population Health"
-format: 
+format:
   html:
     theme: united
-    font: 'Georgia'
+    font:
     fontsize: 1.0em
-self-contained: true
-editor_options: 
+output:
+  html_document: default
+  pdf_document: default
+editor_options:
   chunk_output_type: console
-output: html_document
+self-contained: yes
 ---
 
 ```{r setup, include=FALSE}
@@ -36,7 +38,7 @@ All maps, graphs, and other figures for the United States and Ohio that are pres
 * Ohioans ages 20-24 experience the highest rates of gun violence mortality  
 * In 2022, men were over five times as likely to be killed by gun violence than women 
 
-```{r loading packages}
+```{r loading packages, eval=FALSE}
 library(tidyverse)
 library(stringr)
 library(scales)
@@ -49,10 +51,12 @@ library(tigris)
 library(sf)
 library(dplyr)
 library(classInt)
+library(extrafont)
 ```
 
 ```{r census geometry data}
-census_api_key('e91d231563691e6bea782a7dbafe82616924d422')
+#census_api_key("e91d231563691e6bea782a7dbafe82616924d422", overwrite = TRUE, install = TRUE)
+#census_api_key('e91d231563691e6bea782a7dbafe82616924d422')
 
 state <- get_acs(
   geography = "state",
@@ -69,13 +73,12 @@ county <- get_acs(
   variables = c("B01001_001"),
   year = 2019,
   geometry = TRUE,
-  resolution ="20m",
-) %>%
-  shift_geometry()
+)
 
 state %>% mutate(GEOID=as.integer(GEOID)) -> state
 state %>% filter(NAME!="Puerto Rico") -> state
 county %>% mutate(GEOID=as.integer(GEOID)) -> county
+county %>% filter(NAME!="Puerto Rico") -> county
 
 ```
 
@@ -83,8 +86,12 @@ county %>% mutate(GEOID=as.integer(GEOID)) -> county
 
 ```{r 2022 national map by state}
 
-#Import homicide data set
-read.delim(file='US.AllFirearmHomicide.State.2022.txt') -> homicide
+read.delim(
+  here::here(
+    "data",
+    "US.AllFirearmHomicide.State.2022.txt"
+    )
+  ) -> homicide
 
 #Create calculated crude rate variable
 homicide %>% mutate(Rate=(Deaths/Population)*100000) -> homicide
@@ -125,7 +132,7 @@ ggplot() +
   
   theme_void() +
   
-  theme(text = element_text(family = 'Georgia'),
+  theme(text = element_text(),
         plot.title = element_text(size = 20, color = '#004023', hjust = .5, face='bold'),
         axis.title.x=element_blank(),
         axis.text.x=element_blank(),
@@ -136,10 +143,82 @@ ggplot() +
   theme(legend.position = 'bottom')
 ```
 
+## Firearm Homicide Deaths by State, 2022
+
+```{r 2022 state horizontal bars}
+
+read.delim(
+  here::here(
+    "data",
+    "US.AllFirearmHomicide.State.2022.txt"
+    )
+  ) -> homicide
+
+homicide %>% mutate(Rate=(Deaths/Population)*100000) -> homicide
+
+homicide %>% filter(Notes=='') -> homicide
+homicide = subset(homicide,select=-c(Notes)) 
+homicide %>% rename(State=Residence.State) -> homicide
+
+#Create rank variable based on rate
+homicide %>% mutate(Rank = dense_rank(Rate)) -> homicide
+
+#Sort by high to low rate
+homicide$State <- factor(homicide$State) %>% 
+  fct_reorder(homicide$Rate)
+
+#Create horizontal bar chart
+ggplot(homicide,aes(x=State, 
+                    y=Rate, 
+                    fill=Rate)) + 
+  geom_col(alpha=0.75) +   	#Alpha controls density of color, 
+  
+  #ggtitle("homicide Deaths by State, 2022") +
+  
+  #Creates breaks in graph & controls limits(min/max)
+  #scale_y_continuous(limits = c(-0.2, 0.7), breaks = c(-0.2,-0.1,0,0.1,0.2,0.3,0.4,0.5,0.6,0.7)) +
+  
+  #Flips graph from vertical bars to horizontal
+  coord_flip() +
+  labs(caption = "", 
+       y="Rate per 100,000 population",    		#Legend titles
+       x="") +
+  
+  #Create fill gradient in bars
+  scale_fill_gradient(name="Label",
+                      low = "#BFCEDB",
+                      high = "#003A70") + 	
+  
+  #Create average line
+  geom_hline(yintercept = mean(homicide$Rate), color="grey40", linewidth=1, alpha=.5) +
+  annotate('text', x=5, y=5.8, color='grey40', fontface='bold', label="National Average") +
+  
+  #Control rate numbers on graph
+  geom_text(aes(label=round(Rate,1)), color='black', size=3, fontface="bold", hjust=1.2, vjust=.35) +
+  
+  #Control graph theme
+  theme_minimal() +
+  theme(text = element_text()) +
+  theme(plot.title=element_text(size = 38, color = '#004023', hjust = 0, face='bold')) +
+  theme(axis.text.x = element_text(color="gray20", 
+                                   size=10),
+        axis.text.y = element_text(color="black", 
+                                   size=10)) +
+  theme(legend.position = 'none')
+
+```
+
+
 ## Firearm Homicide Deaths by State, 2018-2022
 
 ```{r 2018-22 national map by state}
-read.delim(file='US.AllFirearmHomicide.State.2018-22.txt') -> homicide
+
+read.delim(
+  here::here(
+    "data",
+    "US.AllFirearmHomicide.State.2018-22.txt"
+    )
+  ) -> homicide
 
 homicide %>% mutate(Rate=(Deaths/Population)*100000) -> homicide
 
@@ -177,7 +256,7 @@ ggplot() +
   
   theme_void() +
   
-  theme(text = element_text(family = 'Georgia'),
+  theme(text = element_text(),
         plot.title = element_text(size = 19, color = '#004023', hjust = .5, face='bold'),
         axis.title.x=element_blank(),
         axis.text.x=element_blank(),
@@ -191,7 +270,13 @@ ggplot() +
 ## Firearm Homicide Deaths by State, 2013-2017
 
 ```{r 2013-17 national map by state}
-read.delim(file='US.AllFirearmHomicide.State.2013-17.txt') -> homicide
+
+read.delim(
+  here::here(
+    "data",
+    "US.AllFirearmHomicide.State.2013-17.txt"
+    )
+  ) -> homicide
 
 homicide %>% mutate(Rate=(Deaths/Population)*100000) -> homicide
 
@@ -229,7 +314,7 @@ ggplot() +
   
   theme_void() +
   
-  theme(text = element_text(family = 'Georgia'),
+  theme(text = element_text(),
         plot.title = element_text(size = 19, color = '#004023', hjust = .5, face='bold'),
         axis.title.x=element_blank(),
         axis.text.x=element_blank(),
@@ -243,13 +328,20 @@ ggplot() +
 ## U.S. Firearm Homicide Deaths by Year, 1999 - 2022
 
 ```{r us time series line chart 1999-2022}
-#Import 1999-2020 homicide data set
-read.delim(file='US.AllFirearmHomicide.Year.1999-2020.txt') -> homicide
-homicide %>% filter(Notes=='') -> homicide
 
-#Import 2021-22 homicide data set
-read.delim(file='US.AllFirearmHomicide.Year.2021-22.txt') -> homicide2
-homicide2 %>% filter(Notes=='') -> homicide2
+read.delim(
+  here::here(
+    "data",
+    "US.AllFirearmHomicide.Year.1999-2020.txt"
+    )
+  ) -> homicide
+
+read.delim(
+  here::here(
+    "data",
+    "US.AllFirearmHomicide.Year.2021-22.txt"
+    )
+  ) -> homicide2
 
 #Combine datasets
 rbind(homicide,homicide2) -> homicide
@@ -265,11 +357,11 @@ ggplot(homicide, aes(x=Year.Code,y=Rate)) +
   
   #Show trend line (smoothed data)
   geom_smooth(color="#004023",span=0.75, 
-  se=TRUE, size=1,fill="gray85") +  
+  se=TRUE, linewidth=1,fill="gray85") +  
   
   geom_col(fill="#003a70",alpha=.80) + 
   
-  geom_text(aes(label= round(Rate, 1)), size=3.3, color ="black", family='Georgia', fontface='bold', vjust=1.75) +
+  geom_text(aes(label= round(Rate, 1)), size=3.3, color ="black", fontface='bold', vjust=1.75) +
   
   
   labs(caption='', y="Rate per 100,000 Population", x=NULL, size=15) +
@@ -290,7 +382,7 @@ ggplot(homicide, aes(x=Year.Code,y=Rate)) +
   #theme(legend.position = 'none')
   
 theme_minimal() +
-  theme(text = element_text(family = 'Georgia')) +
+  theme(text = element_text()) +
   theme(plot.title=element_text(size = 30, color = '#003A70', hjust = 0, face='bold')) +
   theme(axis.text.x = element_text(color="black", size=11, vjust=8),
         axis.text.y = element_text(color="black", size=11, hjust=2)) +
@@ -301,7 +393,70 @@ theme_minimal() +
   theme(legend.position = 'none')
 ```
 
-```{r}
+## Ohio Firearm Homicide Deaths by County, 1999-2020
+
+```{r oh map by county 1999-2020}
+
+read.delim(
+  here::here(
+    "data",
+    "OH.AllFirearmHomicide.County.1999-2020.txt"
+    )
+  ) -> homicide
+
+#Create calculated crude rate variable
+homicide %>% mutate(Deaths=as.integer(Deaths)) -> homicide
+homicide %>% mutate(Rate=(Deaths/Population)*100000) -> homicide
+
+#Clean up data
+homicide %>% filter(Notes=='') -> homicide
+homicide = subset(homicide,select=-c(Notes)) 
+homicide %>% rename(GEOID=County.Code) -> homicide
+
+left_join(county,homicide, by='GEOID') -> homicide
+homicide %>% filter(County != 'NA') -> homicide
+homicide %>% mutate(Name=str_sub(County,1,-12)) -> homicide
+
+#Create data breaks
+breaks_j <- classIntervals(c(min(homicide$Rate),       
+                             homicide$Rate),n=3,        
+                           style="quantile")              
+
+homicide <- mutate(homicide,Breaks=cut(Rate,breaks_j$brks,include.lowest=TRUE))
+
+#Change legend category labels based on breaks
+c('0.5 - 1.1','1.2 - 2.2','2.3 - 9.1') -> legend.labels
+
+#Create map
+ggplot() +
+  
+  #ggtitle("Ohio Firearm Homicide Deaths by County, 1999-2020") +
+  
+  geom_sf(data = homicide, aes(fill = Breaks), color = "black",size=.4, alpha=1) +
+  
+  scale_fill_manual(values=c("#BFCEDB",
+                             
+                             "#6084A6",
+                             
+                             "#003A70"), na.value = "white", drop = FALSE, name="Rate per 100,000 population", label=legend.labels) +
+  
+  
+  geom_sf_text(data=homicide,aes(label= Name), size = 2.5, vjust=-.25,
+               color = case_when(homicide$Breaks == '[0.467,1.07]' | homicide$Breaks == '(1.07,2.22]' | homicide$Rate == '' ~ 'black',
+                                 homicide$Breaks == '(2.22,9.13]' ~ 'white')) +
+  #geom_sf_text(data=State,aes(label= round(Rate,2)), color = "black", size = 2.5, vjust = 1.2) +
+  
+  theme_void() +
+  
+  theme(text = element_text(),
+        plot.title = element_text(size = 38, color = '#004023', hjust = .5, face='bold'),
+        axis.title.x=element_blank(),
+        axis.text.x=element_blank(),
+        axis.ticks.x=element_blank()) +
+  theme(axis.title.y=element_blank(),
+        axis.text.y=element_blank(),
+        axis.ticks.y=element_blank()) +
+  theme(legend.position = 'bottom')
 
 ```
 
