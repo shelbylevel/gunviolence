@@ -1,0 +1,208 @@
+"Notes"	"Residence State"	"Residence State Code"	"UCD - ICD Sub-Chapter"	"UCD - ICD Sub-Chapter Code"	Deaths	Population	Crude Rate
+	"Alabama"	"01"	"Intentional self-harm"	"X60-X84"	2458	15001286	16.4
+	"Alabama"	"01"	"Assault"	"X85-Y09"	2104	15001286	14.0
+"Total"	"Alabama"	"01"			4562	15001286	30.4
+	"Alaska"	"02"	"Intentional self-harm"	"X60-X84"	624	2196504	28.4
+	"Alaska"	"02"	"Assault"	"X85-Y09"	180	2196504	8.2
+"Total"	"Alaska"	"02"			804	2196504	36.6
+	"Arizona"	"04"	"Intentional self-harm"	"X60-X84"	4439	21974033	20.2
+	"Arizona"	"04"	"Assault"	"X85-Y09"	1693	21974033	7.7
+"Total"	"Arizona"	"04"			6132	21974033	27.9
+	"Arkansas"	"05"	"Intentional self-harm"	"X60-X84"	1747	9082304	19.2
+	"Arkansas"	"05"	"Assault"	"X85-Y09"	1043	9082304	11.5
+"Total"	"Arkansas"	"05"			2790	9082304	30.7
+	"California"	"06"	"Intentional self-harm"	"X60-X84"	12596	117843750	10.7
+	"California"	"06"	"Assault"	"X85-Y09"	7026	117843750	6.0
+"Total"	"California"	"06"			19622	117843750	16.7
+	"Colorado"	"08"	"Intentional self-harm"	"X60-X84"	3971	17431857	22.8
+	"Colorado"	"08"	"Assault"	"X85-Y09"	1101	17431857	6.3
+"Total"	"Colorado"	"08"			5072	17431857	29.1
+	"Connecticut"	"09"	"Intentional self-harm"	"X60-X84"	1163	10768200	10.8
+	"Connecticut"	"09"	"Assault"	"X85-Y09"	452	10768200	4.2
+"Total"	"Connecticut"	"09"			1615	10768200	15.0
+	"Delaware"	"10"	"Intentional self-harm"	"X60-X84"	391	2993577	13.1
+	"Delaware"	"10"	"Assault"	"X85-Y09"	250	2993577	8.4
+"Total"	"Delaware"	"10"			641	2993577	21.4
+	"District of Columbia"	"11"	"Intentional self-harm"	"X60-X84"	127	2052916	6.2
+	"District of Columbia"	"11"	"Assault"	"X85-Y09"	569	2052916	27.7
+"Total"	"District of Columbia"	"11"			696	2052916	33.9
+	"Florida"	"12"	"Intentional self-harm"	"X60-X84"	9921	65295568	15.2
+	"Florida"	"12"	"Assault"	"X85-Y09"	4427	65295568	6.8
+"Total"	"Florida"	"12"			14348	65295568	22.0
+	"Georgia"	"13"	"Intentional self-harm"	"X60-X84"	4788	32309149	14.8
+	"Georgia"	"13"	"Assault"	"X85-Y09"	3503	32309149	10.8
+"Total"	"Georgia"	"13"			8291	32309149	25.7
+	"Hawaii"	"15"	"Intentional self-harm"	"X60-X84"	632	4290112	14.7
+	"Hawaii"	"15"	"Assault"	"X85-Y09"	124	4290112	2.9
+"Total"	"Hawaii"	"15"			756	4290112	17.6
+	"Idaho"	"16"	"Intentional self-harm"	"X60-X84"	1250	5628759	22.2
+	"Idaho"	"16"	"Assault"	"X85-Y09"	130	5628759	2.3
+"Total"	"Idaho"	"16"			1380	5628759	24.5
+	"Illinois"	"17"	"Intentional self-harm"	"X60-X84"	4344	37930468	11.5
+	"Illinois"	"17"	"Assault"	"X85-Y09"	4118	37930468	10.9
+"Total"	"Illinois"	"17"			8462	37930468	22.3
+	"Indiana"	"18"	"Intentional self-harm"	"X60-X84"	3304	20366923	16.2
+	"Indiana"	"18"	"Assault"	"X85-Y09"	1787	20366923	8.8
+"Total"	"Indiana"	"18"			5091	20366923	25.0
+	"Iowa"	"19"	"Intentional self-harm"	"X60-X84"	1691	9549719	17.7
+	"Iowa"	"19"	"Assault"	"X85-Y09"	290	9549719	3.0
+"Total"	"Iowa"	"19"			1981	9549719	20.7
+	"Kansas"	"20"	"Intentional self-harm"	"X60-X84"	1687	8782969	19.2
+	"Kansas"	"20"	"Assault"	"X85-Y09"	533	8782969	6.1
+"Total"	"Kansas"	"20"			2220	8782969	25.3
+	"Kentucky"	"21"	"Intentional self-harm"	"X60-X84"	2439	13496039	18.1
+	"Kentucky"	"21"	"Assault"	"X85-Y09"	1155	13496039	8.6
+"Total"	"Kentucky"	"21"			3594	13496039	26.6
+	"Louisiana"	"22"	"Intentional self-harm"	"X60-X84"	2052	13893412	14.8
+	"Louisiana"	"22"	"Assault"	"X85-Y09"	2654	13893412	19.1
+"Total"	"Louisiana"	"22"			4706	13893412	33.9
+	"Maine"	"23"	"Intentional self-harm"	"X60-X84"	779	4094635	19.0
+	"Maine"	"23"	"Assault"	"X85-Y09"	72	4094635	1.8
+"Total"	"Maine"	"23"			851	4094635	20.8
+	"Maryland"	"24"	"Intentional self-harm"	"X60-X84"	1813	18386060	9.9
+	"Maryland"	"24"	"Assault"	"X85-Y09"	1987	18386060	10.8
+"Total"	"Maryland"	"24"			3800	18386060	20.7
+	"Massachusetts"	"25"	"Intentional self-harm"	"X60-X84"	1844	20863020	8.8
+	"Massachusetts"	"25"	"Assault"	"X85-Y09"	498	20863020	2.4
+"Total"	"Massachusetts"	"25"			2342	20863020	11.2
+	"Michigan"	"26"	"Intentional self-harm"	"X60-X84"	4431	30068177	14.7
+	"Michigan"	"26"	"Assault"	"X85-Y09"	2397	30068177	8.0
+"Total"	"Michigan"	"26"			6828	30068177	22.7
+	"Minnesota"	"27"	"Intentional self-harm"	"X60-X84"	2423	17072122	14.2
+	"Minnesota"	"27"	"Assault"	"X85-Y09"	624	17072122	3.7
+"Total"	"Minnesota"	"27"			3047	17072122	17.8
+	"Mississippi"	"28"	"Intentional self-harm"	"X60-X84"	1305	8866716	14.7
+	"Mississippi"	"28"	"Assault"	"X85-Y09"	1804	8866716	20.3
+"Total"	"Mississippi"	"28"			3109	8866716	35.1
+	"Missouri"	"29"	"Intentional self-harm"	"X60-X84"	3520	18487922	19.0
+	"Missouri"	"29"	"Assault"	"X85-Y09"	2241	18487922	12.1
+"Total"	"Missouri"	"29"			5761	18487922	31.2
+	"Montana"	"30"	"Intentional self-harm"	"X60-X84"	978	3289119	29.7
+	"Montana"	"30"	"Assault"	"X85-Y09"	166	3289119	5.0
+"Total"	"Montana"	"30"			1144	3289119	34.8
+	"Nebraska"	"31"	"Intentional self-harm"	"X60-X84"	877	5864936	15.0
+	"Nebraska"	"31"	"Assault"	"X85-Y09"	216	5864936	3.7
+"Total"	"Nebraska"	"31"			1093	5864936	18.6
+	"Nevada"	"32"	"Intentional self-harm"	"X60-X84"	1990	9426241	21.1
+	"Nevada"	"32"	"Assault"	"X85-Y09"	714	9426241	7.6
+"Total"	"Nevada"	"32"			2704	9426241	28.7
+	"New Hampshire"	"33"	"Intentional self-harm"	"X60-X84"	703	4144259	17.0
+	"New Hampshire"	"33"	"Assault"	"X85-Y09"	53	4144259	1.3
+"Total"	"New Hampshire"	"33"			756	4144259	18.2
+	"New Jersey"	"34"	"Intentional self-harm"	"X60-X84"	2136	27416631	7.8
+	"New Jersey"	"34"	"Assault"	"X85-Y09"	1091	27416631	4.0
+"Total"	"New Jersey"	"34"			3227	27416631	11.8
+	"New Mexico"	"35"	"Intentional self-harm"	"X60-X84"	1573	6338073	24.8
+	"New Mexico"	"35"	"Assault"	"X85-Y09"	804	6338073	12.7
+"Total"	"New Mexico"	"35"			2377	6338073	37.5
+	"New York"	"36"	"Intentional self-harm"	"X60-X84"	5066	59008602	8.6
+	"New York"	"36"	"Assault"	"X85-Y09"	2586	59008602	4.4
+"Total"	"New York"	"36"			7652	59008602	13.0
+	"North Carolina"	"37"	"Intentional self-harm"	"X60-X84"	4490	31703147	14.2
+	"North Carolina"	"37"	"Assault"	"X85-Y09"	2780	31703147	8.8
+"Total"	"North Carolina"	"37"			7270	31703147	22.9
+	"North Dakota"	"38"	"Intentional self-harm"	"X60-X84"	459	2315205	19.8
+	"North Dakota"	"38"	"Assault"	"X85-Y09"	82	2315205	3.5
+"Total"	"North Dakota"	"38"			541	2315205	23.4
+	"Ohio"	"39"	"Intentional self-harm"	"X60-X84"	5201	35253251	14.8
+	"Ohio"	"39"	"Assault"	"X85-Y09"	2913	35253251	8.3
+"Total"	"Ohio"	"39"			8114	35253251	23.0
+	"Oklahoma"	"40"	"Intentional self-harm"	"X60-X84"	2601	11954061	21.8
+	"Oklahoma"	"40"	"Assault"	"X85-Y09"	992	11954061	8.3
+"Total"	"Oklahoma"	"40"			3593	11954061	30.1
+	"Oregon"	"41"	"Intentional self-harm"	"X60-X84"	2601	12733817	20.4
+	"Oregon"	"41"	"Assault"	"X85-Y09"	566	12733817	4.4
+"Total"	"Oregon"	"41"			3167	12733817	24.9
+	"Pennsylvania"	"42"	"Intentional self-harm"	"X60-X84"	5533	38711366	14.3
+	"Pennsylvania"	"42"	"Assault"	"X85-Y09"	3126	38711366	8.1
+"Total"	"Pennsylvania"	"42"			8659	38711366	22.4
+	"Rhode Island"	"44"	"Intentional self-harm"	"X60-X84"	336	3248345	10.3
+	"Rhode Island"	"44"	"Assault"	"X85-Y09"	90	3248345	2.8
+"Total"	"Rhode Island"	"44"			426	3248345	13.1
+	"South Carolina"	"45"	"Intentional self-harm"	"X60-X84"	2522	15599450	16.2
+	"South Carolina"	"45"	"Assault"	"X85-Y09"	1864	15599450	11.9
+"Total"	"South Carolina"	"45"			4386	15599450	28.1
+	"South Dakota"	"46"	"Intentional self-harm"	"X60-X84"	579	2683469	21.6
+	"South Dakota"	"46"	"Assault"	"X85-Y09"	152	2683469	5.7
+"Total"	"South Dakota"	"46"			731	2683469	27.2
+	"Tennessee"	"47"	"Intentional self-harm"	"X60-X84"	3683	20837270	17.7
+	"Tennessee"	"47"	"Assault"	"X85-Y09"	2285	20837270	11.0
+"Total"	"Tennessee"	"47"			5968	20837270	28.6
+	"Texas"	"48"	"Intentional self-harm"	"X60-X84"	12477	88416641	14.1
+	"Texas"	"48"	"Assault"	"X85-Y09"	6800	88416641	7.7
+"Total"	"Texas"	"48"			19277	88416641	21.8
+	"Utah"	"49"	"Intentional self-harm"	"X60-X84"	2009	9925829	20.2
+	"Utah"	"49"	"Assault"	"X85-Y09"	256	9925829	2.6
+"Total"	"Utah"	"49"			2265	9925829	22.8
+	"Vermont"	"50"	"Intentional self-harm"	"X60-X84"	386	1914487	20.2
+	"Vermont"	"50"	"Assault"	"X85-Y09"	40	1914487	2.1
+"Total"	"Vermont"	"50"			426	1914487	22.3
+	"Virginia"	"51"	"Intentional self-harm"	"X60-X84"	3593	25875111	13.9
+	"Virginia"	"51"	"Assault"	"X85-Y09"	1770	25875111	6.8
+"Total"	"Virginia"	"51"			5363	25875111	20.7
+	"Washington"	"53"	"Intentional self-harm"	"X60-X84"	3683	23170996	15.9
+	"Washington"	"53"	"Assault"	"X85-Y09"	1068	23170996	4.6
+"Total"	"Washington"	"53"			4751	23170996	20.5
+	"West Virginia"	"54"	"Intentional self-harm"	"X60-X84"	1083	5350705	20.2
+	"West Virginia"	"54"	"Assault"	"X85-Y09"	332	5350705	6.2
+"Total"	"West Virginia"	"54"			1415	5350705	26.4
+	"Wisconsin"	"55"	"Intentional self-harm"	"X60-X84"	2693	17624471	15.3
+	"Wisconsin"	"55"	"Assault"	"X85-Y09"	995	17624471	5.6
+"Total"	"Wisconsin"	"55"			3688	17624471	20.9
+	"Wyoming"	"56"	"Intentional self-harm"	"X60-X84"	527	1739934	30.3
+	"Wyoming"	"56"	"Assault"	"X85-Y09"	58	1739934	3.3
+"Total"	"Wyoming"	"56"			585	1739934	33.6
+"Total"					218079	993271613	22.0
+"---"
+"Dataset: Provisional Mortality Statistics, 2018 through Last Week"
+"Query Parameters:"
+"UCD - ICD-10 Codes: X60-X84 (Intentional self-harm); X85-Y09 (Assault)"
+"Year/Month: 2020; 2021; 2022 (provisional)"
+"Group By: Residence State; UCD - ICD Sub-Chapter"
+"Show Totals: True"
+"Show Zero Values: False"
+"Show Suppressed: False"
+"Calculate Rates Per: 100,000"
+"Rate Options: Default intercensal populations for years 2001-2009 (except Infant Age Groups)"
+"---"
+"Help: See http://wonder.cdc.gov/wonder/help/mcd-provisional.html for more information."
+"---"
+"Query Date: Oct 30, 2023 3:27:35 PM"
+"---"
+"Suggested Citation: Centers for Disease Control and Prevention, National Center for Health Statistics. National Vital Statistics"
+"System, Provisional Mortality on CDC WONDER Online Database. Data are from the final Multiple Cause of Death Files, 2018-2021,"
+"and from provisional data for years 2022-2023, as compiled from data provided by the 57 vital statistics jurisdictions through"
+"the Vital Statistics Cooperative Program. Accessed at http://wonder.cdc.gov/mcd-icd10-provisional.html on Oct 30, 2023 3:27:35"
+"PM"
+"---"
+Caveats:
+"1. The population figures for years 2021 and later are single-race estimates of the July 1 resident population, based on the"
+"Blended Base produced by the US Census Bureau in lieu of the April 1, 2020 decennial population count, from the Vintage 2021"
+"postcensal series released by the Census Bureau on June 30, 2022. The population figures for year 2020 are single-race estimates"
+"of the July 1 resident population, from the Vintage 2020 postcensal series based on April 2010 Census, released by the Census"
+"Bureau on July 27, 2021. The population figures for year 2019 are single-race estimates of the July 1 resident population, from"
+"the Vintage 2019 postcensal series based on April 2010 Census, released by the Census Bureau on June 25, 2020. The population"
+"figures for year 2018 are single-race estimates of the July 1 resident population, from the Vintage 2018 postcensal series based"
+"on April 2010 Census, released by the Census Bureau on June 20, 2019. More information:"
+"http://wonder.cdc.gov/wonder/help/mcd-provisional.html#Population Data."
+"2. The population figures used in the calculation of death rates for the age group 'under 1 year' are the estimates of the"
+"resident population that is under one year of age. More information: http://wonder.cdc.gov/wonder/help/mcd-provisional.html#Age"
+"Group."
+"3. Beginning with the 2018 data, changes have been implemented that affect the counts for ICD-10 cause of death codes O00-O99"
+"compared to previous practice. In addition, data for the cause of death codes O00-O99 for 2003 through 2017 reflect differences"
+"in information available to individual states and probable errors. Deaths with the underlying cause classified with O00-O99 are"
+"subject to further processing before these deaths records are considered final. Provisional deaths have not undergone full"
+"processing and review and therefore should not be considered final for statistical purposes. Caution should be used in"
+"interpreting these data. More information can be found at: https://www.cdc.gov/nchs/maternal-mortality/."
+"4. On March 11, 2021, the 2019 mortality data on CDC WONDER was updated with the 2019 mortality data updated by NCHS on March 4,"
+"2021 to include corrected information for residents of Texas affecting 5 records previously coded to cause code *U01.4,"
+"Terrorism involving firearms (homicide). The underlying and multiple cause of death codes for 5 records were corrected in the"
+"2019 data. Underlying and multiple cause of death codes for those 5 records were recoded to Assault (homicide) by other and"
+"unspecified firearm discharge, ICD-10 code X95. The corrected final death records replaces the data released on December 22,"
+"2020."
+"5. Deaths related to external causes of injury or sudden death: In the provisional mortality data, causes of death classified as"
+"external causes of injury (ICD-10 codes V01-Y89) or sudden deaths (ICD-10 codes R95 and R96) have the cause of death labeled as"
+"'Data not shown due to 6 month lag to account for delays in death certificate completion for certain causes of death.' For these"
+"deaths occurring 24 weeks prior to the final date in the provisional data, the number of deaths and related statistics are not"
+"available by specific cause of death for ICD-10 codes V01-Y89, R95 or R96."
+"6. Deaths occurring through October 14, 2023 as of October 22, 2023."

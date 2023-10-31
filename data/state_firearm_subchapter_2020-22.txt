@@ -1,0 +1,380 @@
+"Notes"	"Residence State"	"Residence State Code"	"UCD - ICD Sub-Chapter"	"UCD - ICD Sub-Chapter Code"	Deaths	Population	Crude Rate
+	"Alabama"	"01"	"Provisional assignment of new diseases of uncertain etiology"	"U00-U49"	0	15001286	Unreliable
+	"Alabama"	"01"	"Other external causes of accidental injury"	"W00-X59"	64	15001286	0.4
+	"Alabama"	"01"	"Intentional self-harm"	"X60-X84"	1779	15001286	11.9
+	"Alabama"	"01"	"Assault"	"X85-Y09"	1838	15001286	12.3
+	"Alabama"	"01"	"Event of undetermined intent"	"Y10-Y34"	31	15001286	0.2
+	"Alabama"	"01"	"Legal intervention and operations of war"	"Y35-Y36"	22	15001286	0.1
+	"Alaska"	"02"	"Provisional assignment of new diseases of uncertain etiology"	"U00-U49"	0	2196504	Unreliable
+	"Alaska"	"02"	"Other external causes of accidental injury"	"W00-X59"	Suppressed	2196504	Suppressed
+	"Alaska"	"02"	"Intentional self-harm"	"X60-X84"	389	2196504	17.7
+	"Alaska"	"02"	"Assault"	"X85-Y09"	99	2196504	4.5
+	"Alaska"	"02"	"Event of undetermined intent"	"Y10-Y34"	16	2196504	Unreliable
+	"Alaska"	"02"	"Legal intervention and operations of war"	"Y35-Y36"	Suppressed	2196504	Suppressed
+	"Arizona"	"04"	"Provisional assignment of new diseases of uncertain etiology"	"U00-U49"	0	21974033	Unreliable
+	"Arizona"	"04"	"Other external causes of accidental injury"	"W00-X59"	27	21974033	0.1
+	"Arizona"	"04"	"Intentional self-harm"	"X60-X84"	2691	21974033	12.2
+	"Arizona"	"04"	"Assault"	"X85-Y09"	1302	21974033	5.9
+	"Arizona"	"04"	"Event of undetermined intent"	"Y10-Y34"	55	21974033	0.3
+	"Arizona"	"04"	"Legal intervention and operations of war"	"Y35-Y36"	90	21974033	0.4
+	"Arkansas"	"05"	"Provisional assignment of new diseases of uncertain etiology"	"U00-U49"	0	9082304	Unreliable
+	"Arkansas"	"05"	"Other external causes of accidental injury"	"W00-X59"	33	9082304	0.4
+	"Arkansas"	"05"	"Intentional self-harm"	"X60-X84"	1096	9082304	12.1
+	"Arkansas"	"05"	"Assault"	"X85-Y09"	853	9082304	9.4
+	"Arkansas"	"05"	"Event of undetermined intent"	"Y10-Y34"	35	9082304	0.4
+	"Arkansas"	"05"	"Legal intervention and operations of war"	"Y35-Y36"	20	9082304	0.2
+	"California"	"06"	"Provisional assignment of new diseases of uncertain etiology"	"U00-U49"	Suppressed	117843750	Suppressed
+	"California"	"06"	"Other external causes of accidental injury"	"W00-X59"	89	117843750	0.1
+	"California"	"06"	"Intentional self-harm"	"X60-X84"	4819	117843750	4.1
+	"California"	"06"	"Assault"	"X85-Y09"	5270	117843750	4.5
+	"California"	"06"	"Event of undetermined intent"	"Y10-Y34"	61	117843750	0.1
+	"California"	"06"	"Legal intervention and operations of war"	"Y35-Y36"	276	117843750	0.2
+	"Colorado"	"08"	"Provisional assignment of new diseases of uncertain etiology"	"U00-U49"	0	17431857	Unreliable
+	"Colorado"	"08"	"Other external causes of accidental injury"	"W00-X59"	23	17431857	0.1
+	"Colorado"	"08"	"Intentional self-harm"	"X60-X84"	2090	17431857	12.0
+	"Colorado"	"08"	"Assault"	"X85-Y09"	815	17431857	4.7
+	"Colorado"	"08"	"Event of undetermined intent"	"Y10-Y34"	19	17431857	Unreliable
+	"Colorado"	"08"	"Legal intervention and operations of war"	"Y35-Y36"	75	17431857	0.4
+	"Connecticut"	"09"	"Provisional assignment of new diseases of uncertain etiology"	"U00-U49"	0	10768200	Unreliable
+	"Connecticut"	"09"	"Other external causes of accidental injury"	"W00-X59"	Suppressed	10768200	Suppressed
+	"Connecticut"	"09"	"Intentional self-harm"	"X60-X84"	363	10768200	3.4
+	"Connecticut"	"09"	"Assault"	"X85-Y09"	331	10768200	3.1
+	"Connecticut"	"09"	"Event of undetermined intent"	"Y10-Y34"	Suppressed	10768200	Suppressed
+	"Connecticut"	"09"	"Legal intervention and operations of war"	"Y35-Y36"	10	10768200	Unreliable
+	"Delaware"	"10"	"Provisional assignment of new diseases of uncertain etiology"	"U00-U49"	0	2993577	Unreliable
+	"Delaware"	"10"	"Other external causes of accidental injury"	"W00-X59"	0	2993577	Unreliable
+	"Delaware"	"10"	"Intentional self-harm"	"X60-X84"	208	2993577	6.9
+	"Delaware"	"10"	"Assault"	"X85-Y09"	204	2993577	6.8
+	"Delaware"	"10"	"Event of undetermined intent"	"Y10-Y34"	0	2993577	Unreliable
+	"Delaware"	"10"	"Legal intervention and operations of war"	"Y35-Y36"	Suppressed	2993577	Suppressed
+	"District of Columbia"	"11"	"Provisional assignment of new diseases of uncertain etiology"	"U00-U49"	0	2052916	Unreliable
+	"District of Columbia"	"11"	"Other external causes of accidental injury"	"W00-X59"	0	2052916	Unreliable
+	"District of Columbia"	"11"	"Intentional self-harm"	"X60-X84"	33	2052916	1.6
+	"District of Columbia"	"11"	"Assault"	"X85-Y09"	467	2052916	22.7
+	"District of Columbia"	"11"	"Event of undetermined intent"	"Y10-Y34"	Suppressed	2052916	Suppressed
+	"District of Columbia"	"11"	"Legal intervention and operations of war"	"Y35-Y36"	Suppressed	2052916	Suppressed
+	"Florida"	"12"	"Provisional assignment of new diseases of uncertain etiology"	"U00-U49"	0	65295568	Unreliable
+	"Florida"	"12"	"Other external causes of accidental injury"	"W00-X59"	52	65295568	0.1
+	"Florida"	"12"	"Intentional self-harm"	"X60-X84"	5646	65295568	8.6
+	"Florida"	"12"	"Assault"	"X85-Y09"	3547	65295568	5.4
+	"Florida"	"12"	"Event of undetermined intent"	"Y10-Y34"	66	65295568	0.1
+	"Florida"	"12"	"Legal intervention and operations of war"	"Y35-Y36"	104	65295568	0.2
+	"Georgia"	"13"	"Provisional assignment of new diseases of uncertain etiology"	"U00-U49"	0	32309149	Unreliable
+	"Georgia"	"13"	"Other external causes of accidental injury"	"W00-X59"	81	32309149	0.3
+	"Georgia"	"13"	"Intentional self-harm"	"X60-X84"	3104	32309149	9.6
+	"Georgia"	"13"	"Assault"	"X85-Y09"	2953	32309149	9.1
+	"Georgia"	"13"	"Event of undetermined intent"	"Y10-Y34"	51	32309149	0.2
+	"Georgia"	"13"	"Legal intervention and operations of war"	"Y35-Y36"	71	32309149	0.2
+	"Hawaii"	"15"	"Provisional assignment of new diseases of uncertain etiology"	"U00-U49"	0	4290112	Unreliable
+	"Hawaii"	"15"	"Other external causes of accidental injury"	"W00-X59"	Suppressed	4290112	Suppressed
+	"Hawaii"	"15"	"Intentional self-harm"	"X60-X84"	118	4290112	2.8
+	"Hawaii"	"15"	"Assault"	"X85-Y09"	57	4290112	1.3
+	"Hawaii"	"15"	"Event of undetermined intent"	"Y10-Y34"	Suppressed	4290112	Suppressed
+	"Hawaii"	"15"	"Legal intervention and operations of war"	"Y35-Y36"	Suppressed	4290112	Suppressed
+	"Idaho"	"16"	"Provisional assignment of new diseases of uncertain etiology"	"U00-U49"	0	5628759	Unreliable
+	"Idaho"	"16"	"Other external causes of accidental injury"	"W00-X59"	15	5628759	Unreliable
+	"Idaho"	"16"	"Intentional self-harm"	"X60-X84"	824	5628759	14.6
+	"Idaho"	"16"	"Assault"	"X85-Y09"	92	5628759	1.6
+	"Idaho"	"16"	"Event of undetermined intent"	"Y10-Y34"	Suppressed	5628759	Suppressed
+	"Idaho"	"16"	"Legal intervention and operations of war"	"Y35-Y36"	28	5628759	0.5
+	"Illinois"	"17"	"Provisional assignment of new diseases of uncertain etiology"	"U00-U49"	0	37930468	Unreliable
+	"Illinois"	"17"	"Other external causes of accidental injury"	"W00-X59"	32	37930468	0.1
+	"Illinois"	"17"	"Intentional self-harm"	"X60-X84"	1875	37930468	4.9
+	"Illinois"	"17"	"Assault"	"X85-Y09"	3550	37930468	9.4
+	"Illinois"	"17"	"Event of undetermined intent"	"Y10-Y34"	39	37930468	0.1
+	"Illinois"	"17"	"Legal intervention and operations of war"	"Y35-Y36"	42	37930468	0.1
+	"Indiana"	"18"	"Provisional assignment of new diseases of uncertain etiology"	"U00-U49"	0	20366923	Unreliable
+	"Indiana"	"18"	"Other external causes of accidental injury"	"W00-X59"	62	20366923	0.3
+	"Indiana"	"18"	"Intentional self-harm"	"X60-X84"	1996	20366923	9.8
+	"Indiana"	"18"	"Assault"	"X85-Y09"	1481	20366923	7.3
+	"Indiana"	"18"	"Event of undetermined intent"	"Y10-Y34"	40	20366923	0.2
+	"Indiana"	"18"	"Legal intervention and operations of war"	"Y35-Y36"	42	20366923	0.2
+	"Iowa"	"19"	"Provisional assignment of new diseases of uncertain etiology"	"U00-U49"	0	9549719	Unreliable
+	"Iowa"	"19"	"Other external causes of accidental injury"	"W00-X59"	Suppressed	9549719	Suppressed
+	"Iowa"	"19"	"Intentional self-harm"	"X60-X84"	841	9549719	8.8
+	"Iowa"	"19"	"Assault"	"X85-Y09"	212	9549719	2.2
+	"Iowa"	"19"	"Event of undetermined intent"	"Y10-Y34"	16	9549719	Unreliable
+	"Iowa"	"19"	"Legal intervention and operations of war"	"Y35-Y36"	Suppressed	9549719	Suppressed
+	"Kansas"	"20"	"Provisional assignment of new diseases of uncertain etiology"	"U00-U49"	0	8782969	Unreliable
+	"Kansas"	"20"	"Other external causes of accidental injury"	"W00-X59"	25	8782969	0.3
+	"Kansas"	"20"	"Intentional self-harm"	"X60-X84"	1008	8782969	11.5
+	"Kansas"	"20"	"Assault"	"X85-Y09"	432	8782969	4.9
+	"Kansas"	"20"	"Event of undetermined intent"	"Y10-Y34"	17	8782969	Unreliable
+	"Kansas"	"20"	"Legal intervention and operations of war"	"Y35-Y36"	Suppressed	8782969	Suppressed
+	"Kentucky"	"21"	"Provisional assignment of new diseases of uncertain etiology"	"U00-U49"	0	13496039	Unreliable
+	"Kentucky"	"21"	"Other external causes of accidental injury"	"W00-X59"	57	13496039	0.4
+	"Kentucky"	"21"	"Intentional self-harm"	"X60-X84"	1579	13496039	11.7
+	"Kentucky"	"21"	"Assault"	"X85-Y09"	988	13496039	7.3
+	"Kentucky"	"21"	"Event of undetermined intent"	"Y10-Y34"	30	13496039	0.2
+	"Kentucky"	"21"	"Legal intervention and operations of war"	"Y35-Y36"	35	13496039	0.3
+	"Louisiana"	"22"	"Provisional assignment of new diseases of uncertain etiology"	"U00-U49"	0	13893412	Unreliable
+	"Louisiana"	"22"	"Other external causes of accidental injury"	"W00-X59"	65	13893412	0.5
+	"Louisiana"	"22"	"Intentional self-harm"	"X60-X84"	1357	13893412	9.8
+	"Louisiana"	"22"	"Assault"	"X85-Y09"	2291	13893412	16.5
+	"Louisiana"	"22"	"Event of undetermined intent"	"Y10-Y34"	31	13893412	0.2
+	"Louisiana"	"22"	"Legal intervention and operations of war"	"Y35-Y36"	19	13893412	Unreliable
+	"Maine"	"23"	"Provisional assignment of new diseases of uncertain etiology"	"U00-U49"	0	4094635	Unreliable
+	"Maine"	"23"	"Other external causes of accidental injury"	"W00-X59"	Suppressed	4094635	Suppressed
+	"Maine"	"23"	"Intentional self-harm"	"X60-X84"	446	4094635	10.9
+	"Maine"	"23"	"Assault"	"X85-Y09"	46	4094635	1.1
+	"Maine"	"23"	"Event of undetermined intent"	"Y10-Y34"	Suppressed	4094635	Suppressed
+	"Maine"	"23"	"Legal intervention and operations of war"	"Y35-Y36"	11	4094635	Unreliable
+	"Maryland"	"24"	"Provisional assignment of new diseases of uncertain etiology"	"U00-U49"	0	18386060	Unreliable
+	"Maryland"	"24"	"Other external causes of accidental injury"	"W00-X59"	Suppressed	18386060	Suppressed
+	"Maryland"	"24"	"Intentional self-harm"	"X60-X84"	846	18386060	4.6
+	"Maryland"	"24"	"Assault"	"X85-Y09"	1657	18386060	9.0
+	"Maryland"	"24"	"Event of undetermined intent"	"Y10-Y34"	Suppressed	18386060	Suppressed
+	"Maryland"	"24"	"Legal intervention and operations of war"	"Y35-Y36"	18	18386060	Unreliable
+	"Massachusetts"	"25"	"Provisional assignment of new diseases of uncertain etiology"	"U00-U49"	0	20863020	Unreliable
+	"Massachusetts"	"25"	"Other external causes of accidental injury"	"W00-X59"	Suppressed	20863020	Suppressed
+	"Massachusetts"	"25"	"Intentional self-harm"	"X60-X84"	419	20863020	2.0
+	"Massachusetts"	"25"	"Assault"	"X85-Y09"	335	20863020	1.6
+	"Massachusetts"	"25"	"Event of undetermined intent"	"Y10-Y34"	Suppressed	20863020	Suppressed
+	"Massachusetts"	"25"	"Legal intervention and operations of war"	"Y35-Y36"	15	20863020	Unreliable
+	"Michigan"	"26"	"Provisional assignment of new diseases of uncertain etiology"	"U00-U49"	0	30068177	Unreliable
+	"Michigan"	"26"	"Other external causes of accidental injury"	"W00-X59"	25	30068177	0.1
+	"Michigan"	"26"	"Intentional self-harm"	"X60-X84"	2415	30068177	8.0
+	"Michigan"	"26"	"Assault"	"X85-Y09"	2013	30068177	6.7
+	"Michigan"	"26"	"Event of undetermined intent"	"Y10-Y34"	33	30068177	0.1
+	"Michigan"	"26"	"Legal intervention and operations of war"	"Y35-Y36"	17	30068177	Unreliable
+	"Minnesota"	"27"	"Provisional assignment of new diseases of uncertain etiology"	"U00-U49"	0	17072122	Unreliable
+	"Minnesota"	"27"	"Other external causes of accidental injury"	"W00-X59"	Suppressed	17072122	Suppressed
+	"Minnesota"	"27"	"Intentional self-harm"	"X60-X84"	1149	17072122	6.7
+	"Minnesota"	"27"	"Assault"	"X85-Y09"	445	17072122	2.6
+	"Minnesota"	"27"	"Event of undetermined intent"	"Y10-Y34"	21	17072122	0.1
+	"Minnesota"	"27"	"Legal intervention and operations of war"	"Y35-Y36"	24	17072122	0.1
+	"Mississippi"	"28"	"Provisional assignment of new diseases of uncertain etiology"	"U00-U49"	0	8866716	Unreliable
+	"Mississippi"	"28"	"Other external causes of accidental injury"	"W00-X59"	59	8866716	0.7
+	"Mississippi"	"28"	"Intentional self-harm"	"X60-X84"	911	8866716	10.3
+	"Mississippi"	"28"	"Assault"	"X85-Y09"	1593	8866716	18.0
+	"Mississippi"	"28"	"Event of undetermined intent"	"Y10-Y34"	47	8866716	0.5
+	"Mississippi"	"28"	"Legal intervention and operations of war"	"Y35-Y36"	18	8866716	Unreliable
+	"Missouri"	"29"	"Provisional assignment of new diseases of uncertain etiology"	"U00-U49"	0	18487922	Unreliable
+	"Missouri"	"29"	"Other external causes of accidental injury"	"W00-X59"	61	18487922	0.3
+	"Missouri"	"29"	"Intentional self-harm"	"X60-X84"	2257	18487922	12.2
+	"Missouri"	"29"	"Assault"	"X85-Y09"	1921	18487922	10.4
+	"Missouri"	"29"	"Event of undetermined intent"	"Y10-Y34"	51	18487922	0.3
+	"Missouri"	"29"	"Legal intervention and operations of war"	"Y35-Y36"	39	18487922	0.2
+	"Montana"	"30"	"Provisional assignment of new diseases of uncertain etiology"	"U00-U49"	0	3289119	Unreliable
+	"Montana"	"30"	"Other external causes of accidental injury"	"W00-X59"	12	3289119	Unreliable
+	"Montana"	"30"	"Intentional self-harm"	"X60-X84"	649	3289119	19.7
+	"Montana"	"30"	"Assault"	"X85-Y09"	102	3289119	3.1
+	"Montana"	"30"	"Event of undetermined intent"	"Y10-Y34"	11	3289119	Unreliable
+	"Montana"	"30"	"Legal intervention and operations of war"	"Y35-Y36"	18	3289119	Unreliable
+	"Nebraska"	"31"	"Provisional assignment of new diseases of uncertain etiology"	"U00-U49"	0	5864936	Unreliable
+	"Nebraska"	"31"	"Other external causes of accidental injury"	"W00-X59"	13	5864936	Unreliable
+	"Nebraska"	"31"	"Intentional self-harm"	"X60-X84"	469	5864936	8.0
+	"Nebraska"	"31"	"Assault"	"X85-Y09"	143	5864936	2.4
+	"Nebraska"	"31"	"Event of undetermined intent"	"Y10-Y34"	Suppressed	5864936	Suppressed
+	"Nebraska"	"31"	"Legal intervention and operations of war"	"Y35-Y36"	11	5864936	Unreliable
+	"Nevada"	"32"	"Provisional assignment of new diseases of uncertain etiology"	"U00-U49"	0	9426241	Unreliable
+	"Nevada"	"32"	"Other external causes of accidental injury"	"W00-X59"	15	9426241	Unreliable
+	"Nevada"	"32"	"Intentional self-harm"	"X60-X84"	1207	9426241	12.8
+	"Nevada"	"32"	"Assault"	"X85-Y09"	527	9426241	5.6
+	"Nevada"	"32"	"Event of undetermined intent"	"Y10-Y34"	16	9426241	Unreliable
+	"Nevada"	"32"	"Legal intervention and operations of war"	"Y35-Y36"	33	9426241	0.4
+	"New Hampshire"	"33"	"Provisional assignment of new diseases of uncertain etiology"	"U00-U49"	0	4144259	Unreliable
+	"New Hampshire"	"33"	"Other external causes of accidental injury"	"W00-X59"	Suppressed	4144259	Suppressed
+	"New Hampshire"	"33"	"Intentional self-harm"	"X60-X84"	363	4144259	8.8
+	"New Hampshire"	"33"	"Assault"	"X85-Y09"	32	4144259	0.8
+	"New Hampshire"	"33"	"Event of undetermined intent"	"Y10-Y34"	0	4144259	Unreliable
+	"New Hampshire"	"33"	"Legal intervention and operations of war"	"Y35-Y36"	10	4144259	Unreliable
+	"New Jersey"	"34"	"Provisional assignment of new diseases of uncertain etiology"	"U00-U49"	0	27416631	Unreliable
+	"New Jersey"	"34"	"Other external causes of accidental injury"	"W00-X59"	Suppressed	27416631	Suppressed
+	"New Jersey"	"34"	"Intentional self-harm"	"X60-X84"	605	27416631	2.2
+	"New Jersey"	"34"	"Assault"	"X85-Y09"	764	27416631	2.8
+	"New Jersey"	"34"	"Event of undetermined intent"	"Y10-Y34"	Suppressed	27416631	Suppressed
+	"New Jersey"	"34"	"Legal intervention and operations of war"	"Y35-Y36"	Suppressed	27416631	Suppressed
+	"New Mexico"	"35"	"Provisional assignment of new diseases of uncertain etiology"	"U00-U49"	0	6338073	Unreliable
+	"New Mexico"	"35"	"Other external causes of accidental injury"	"W00-X59"	21	6338073	0.3
+	"New Mexico"	"35"	"Intentional self-harm"	"X60-X84"	914	6338073	14.4
+	"New Mexico"	"35"	"Assault"	"X85-Y09"	597	6338073	9.4
+	"New Mexico"	"35"	"Event of undetermined intent"	"Y10-Y34"	27	6338073	0.4
+	"New Mexico"	"35"	"Legal intervention and operations of war"	"Y35-Y36"	69	6338073	1.1
+	"New York"	"36"	"Provisional assignment of new diseases of uncertain etiology"	"U00-U49"	0	59008602	Unreliable
+	"New York"	"36"	"Other external causes of accidental injury"	"W00-X59"	26	59008602	0.0
+	"New York"	"36"	"Intentional self-harm"	"X60-X84"	1394	59008602	2.4
+	"New York"	"36"	"Assault"	"X85-Y09"	1702	59008602	2.9
+	"New York"	"36"	"Event of undetermined intent"	"Y10-Y34"	Suppressed	59008602	Suppressed
+	"New York"	"36"	"Legal intervention and operations of war"	"Y35-Y36"	45	59008602	0.1
+	"North Carolina"	"37"	"Provisional assignment of new diseases of uncertain etiology"	"U00-U49"	0	31703147	Unreliable
+	"North Carolina"	"37"	"Other external causes of accidental injury"	"W00-X59"	108	31703147	0.3
+	"North Carolina"	"37"	"Intentional self-harm"	"X60-X84"	2785	31703147	8.8
+	"North Carolina"	"37"	"Assault"	"X85-Y09"	2366	31703147	7.5
+	"North Carolina"	"37"	"Event of undetermined intent"	"Y10-Y34"	34	31703147	0.1
+	"North Carolina"	"37"	"Legal intervention and operations of war"	"Y35-Y36"	66	31703147	0.2
+	"North Dakota"	"38"	"Provisional assignment of new diseases of uncertain etiology"	"U00-U49"	0	2315205	Unreliable
+	"North Dakota"	"38"	"Other external causes of accidental injury"	"W00-X59"	11	2315205	Unreliable
+	"North Dakota"	"38"	"Intentional self-harm"	"X60-X84"	283	2315205	12.2
+	"North Dakota"	"38"	"Assault"	"X85-Y09"	54	2315205	2.3
+	"North Dakota"	"38"	"Event of undetermined intent"	"Y10-Y34"	Suppressed	2315205	Suppressed
+	"North Dakota"	"38"	"Legal intervention and operations of war"	"Y35-Y36"	Suppressed	2315205	Suppressed
+	"Ohio"	"39"	"Provisional assignment of new diseases of uncertain etiology"	"U00-U49"	0	35253251	Unreliable
+	"Ohio"	"39"	"Other external causes of accidental injury"	"W00-X59"	49	35253251	0.1
+	"Ohio"	"39"	"Intentional self-harm"	"X60-X84"	2940	35253251	8.3
+	"Ohio"	"39"	"Assault"	"X85-Y09"	2434	35253251	6.9
+	"Ohio"	"39"	"Event of undetermined intent"	"Y10-Y34"	37	35253251	0.1
+	"Ohio"	"39"	"Legal intervention and operations of war"	"Y35-Y36"	46	35253251	0.1
+	"Oklahoma"	"40"	"Provisional assignment of new diseases of uncertain etiology"	"U00-U49"	0	11954061	Unreliable
+	"Oklahoma"	"40"	"Other external causes of accidental injury"	"W00-X59"	26	11954061	0.2
+	"Oklahoma"	"40"	"Intentional self-harm"	"X60-X84"	1628	11954061	13.6
+	"Oklahoma"	"40"	"Assault"	"X85-Y09"	766	11954061	6.4
+	"Oklahoma"	"40"	"Event of undetermined intent"	"Y10-Y34"	36	11954061	0.3
+	"Oklahoma"	"40"	"Legal intervention and operations of war"	"Y35-Y36"	Suppressed	11954061	Suppressed
+	"Oregon"	"41"	"Provisional assignment of new diseases of uncertain etiology"	"U00-U49"	0	12733817	Unreliable
+	"Oregon"	"41"	"Other external causes of accidental injury"	"W00-X59"	12	12733817	Unreliable
+	"Oregon"	"41"	"Intentional self-harm"	"X60-X84"	1436	12733817	11.3
+	"Oregon"	"41"	"Assault"	"X85-Y09"	410	12733817	3.2
+	"Oregon"	"41"	"Event of undetermined intent"	"Y10-Y34"	11	12733817	Unreliable
+	"Oregon"	"41"	"Legal intervention and operations of war"	"Y35-Y36"	49	12733817	0.4
+	"Pennsylvania"	"42"	"Provisional assignment of new diseases of uncertain etiology"	"U00-U49"	0	38711366	Unreliable
+	"Pennsylvania"	"42"	"Other external causes of accidental injury"	"W00-X59"	52	38711366	0.1
+	"Pennsylvania"	"42"	"Intentional self-harm"	"X60-X84"	2976	38711366	7.7
+	"Pennsylvania"	"42"	"Assault"	"X85-Y09"	2483	38711366	6.4
+	"Pennsylvania"	"42"	"Event of undetermined intent"	"Y10-Y34"	40	38711366	0.1
+	"Pennsylvania"	"42"	"Legal intervention and operations of war"	"Y35-Y36"	47	38711366	0.1
+	"Rhode Island"	"44"	"Provisional assignment of new diseases of uncertain etiology"	"U00-U49"	0	3248345	Unreliable
+	"Rhode Island"	"44"	"Other external causes of accidental injury"	"W00-X59"	Suppressed	3248345	Suppressed
+	"Rhode Island"	"44"	"Intentional self-harm"	"X60-X84"	89	3248345	2.7
+	"Rhode Island"	"44"	"Assault"	"X85-Y09"	63	3248345	1.9
+	"Rhode Island"	"44"	"Event of undetermined intent"	"Y10-Y34"	Suppressed	3248345	Suppressed
+	"Rhode Island"	"44"	"Legal intervention and operations of war"	"Y35-Y36"	Suppressed	3248345	Suppressed
+	"South Carolina"	"45"	"Provisional assignment of new diseases of uncertain etiology"	"U00-U49"	0	15599450	Unreliable
+	"South Carolina"	"45"	"Other external causes of accidental injury"	"W00-X59"	58	15599450	0.4
+	"South Carolina"	"45"	"Intentional self-harm"	"X60-X84"	1681	15599450	10.8
+	"South Carolina"	"45"	"Assault"	"X85-Y09"	1581	15599450	10.1
+	"South Carolina"	"45"	"Event of undetermined intent"	"Y10-Y34"	31	15599450	0.2
+	"South Carolina"	"45"	"Legal intervention and operations of war"	"Y35-Y36"	22	15599450	0.1
+	"South Dakota"	"46"	"Provisional assignment of new diseases of uncertain etiology"	"U00-U49"	0	2683469	Unreliable
+	"South Dakota"	"46"	"Other external causes of accidental injury"	"W00-X59"	11	2683469	Unreliable
+	"South Dakota"	"46"	"Intentional self-harm"	"X60-X84"	285	2683469	10.6
+	"South Dakota"	"46"	"Assault"	"X85-Y09"	78	2683469	2.9
+	"South Dakota"	"46"	"Event of undetermined intent"	"Y10-Y34"	Suppressed	2683469	Suppressed
+	"South Dakota"	"46"	"Legal intervention and operations of war"	"Y35-Y36"	13	2683469	Unreliable
+	"Tennessee"	"47"	"Provisional assignment of new diseases of uncertain etiology"	"U00-U49"	0	20837270	Unreliable
+	"Tennessee"	"47"	"Other external causes of accidental injury"	"W00-X59"	40	20837270	0.2
+	"Tennessee"	"47"	"Intentional self-harm"	"X60-X84"	2414	20837270	11.6
+	"Tennessee"	"47"	"Assault"	"X85-Y09"	1975	20837270	9.5
+	"Tennessee"	"47"	"Event of undetermined intent"	"Y10-Y34"	64	20837270	0.3
+	"Tennessee"	"47"	"Legal intervention and operations of war"	"Y35-Y36"	29	20837270	0.1
+	"Texas"	"48"	"Provisional assignment of new diseases of uncertain etiology"	"U00-U49"	0	88416641	Unreliable
+	"Texas"	"48"	"Other external causes of accidental injury"	"W00-X59"	152	88416641	0.2
+	"Texas"	"48"	"Intentional self-harm"	"X60-X84"	7459	88416641	8.4
+	"Texas"	"48"	"Assault"	"X85-Y09"	5502	88416641	6.2
+	"Texas"	"48"	"Event of undetermined intent"	"Y10-Y34"	131	88416641	0.1
+	"Texas"	"48"	"Legal intervention and operations of war"	"Y35-Y36"	163	88416641	0.2
+	"Utah"	"49"	"Provisional assignment of new diseases of uncertain etiology"	"U00-U49"	0	9925829	Unreliable
+	"Utah"	"49"	"Other external causes of accidental injury"	"W00-X59"	11	9925829	Unreliable
+	"Utah"	"49"	"Intentional self-harm"	"X60-X84"	1084	9925829	10.9
+	"Utah"	"49"	"Assault"	"X85-Y09"	193	9925829	1.9
+	"Utah"	"49"	"Event of undetermined intent"	"Y10-Y34"	12	9925829	Unreliable
+	"Utah"	"49"	"Legal intervention and operations of war"	"Y35-Y36"	25	9925829	0.3
+	"Vermont"	"50"	"Provisional assignment of new diseases of uncertain etiology"	"U00-U49"	0	1914487	Unreliable
+	"Vermont"	"50"	"Other external causes of accidental injury"	"W00-X59"	0	1914487	Unreliable
+	"Vermont"	"50"	"Intentional self-harm"	"X60-X84"	212	1914487	11.1
+	"Vermont"	"50"	"Assault"	"X85-Y09"	27	1914487	1.4
+	"Vermont"	"50"	"Event of undetermined intent"	"Y10-Y34"	Suppressed	1914487	Suppressed
+	"Vermont"	"50"	"Legal intervention and operations of war"	"Y35-Y36"	Suppressed	1914487	Suppressed
+	"Virginia"	"51"	"Provisional assignment of new diseases of uncertain etiology"	"U00-U49"	0	25875111	Unreliable
+	"Virginia"	"51"	"Other external causes of accidental injury"	"W00-X59"	40	25875111	0.2
+	"Virginia"	"51"	"Intentional self-harm"	"X60-X84"	2128	25875111	8.2
+	"Virginia"	"51"	"Assault"	"X85-Y09"	1501	25875111	5.8
+	"Virginia"	"51"	"Event of undetermined intent"	"Y10-Y34"	48	25875111	0.2
+	"Virginia"	"51"	"Legal intervention and operations of war"	"Y35-Y36"	20	25875111	0.1
+	"Washington"	"53"	"Provisional assignment of new diseases of uncertain etiology"	"U00-U49"	0	23170996	Unreliable
+	"Washington"	"53"	"Other external causes of accidental injury"	"W00-X59"	15	23170996	Unreliable
+	"Washington"	"53"	"Intentional self-harm"	"X60-X84"	1900	23170996	8.2
+	"Washington"	"53"	"Assault"	"X85-Y09"	778	23170996	3.4
+	"Washington"	"53"	"Event of undetermined intent"	"Y10-Y34"	32	23170996	0.1
+	"Washington"	"53"	"Legal intervention and operations of war"	"Y35-Y36"	57	23170996	0.2
+	"West Virginia"	"54"	"Provisional assignment of new diseases of uncertain etiology"	"U00-U49"	0	5350705	Unreliable
+	"West Virginia"	"54"	"Other external causes of accidental injury"	"W00-X59"	18	5350705	Unreliable
+	"West Virginia"	"54"	"Intentional self-harm"	"X60-X84"	670	5350705	12.5
+	"West Virginia"	"54"	"Assault"	"X85-Y09"	254	5350705	4.7
+	"West Virginia"	"54"	"Event of undetermined intent"	"Y10-Y34"	Suppressed	5350705	Suppressed
+	"West Virginia"	"54"	"Legal intervention and operations of war"	"Y35-Y36"	Suppressed	5350705	Suppressed
+	"Wisconsin"	"55"	"Provisional assignment of new diseases of uncertain etiology"	"U00-U49"	0	17624471	Unreliable
+	"Wisconsin"	"55"	"Other external causes of accidental injury"	"W00-X59"	21	17624471	0.1
+	"Wisconsin"	"55"	"Intentional self-harm"	"X60-X84"	1455	17624471	8.3
+	"Wisconsin"	"55"	"Assault"	"X85-Y09"	820	17624471	4.7
+	"Wisconsin"	"55"	"Event of undetermined intent"	"Y10-Y34"	20	17624471	0.1
+	"Wisconsin"	"55"	"Legal intervention and operations of war"	"Y35-Y36"	24	17624471	0.1
+	"Wyoming"	"56"	"Provisional assignment of new diseases of uncertain etiology"	"U00-U49"	0	1739934	Unreliable
+	"Wyoming"	"56"	"Other external causes of accidental injury"	"W00-X59"	Suppressed	1739934	Suppressed
+	"Wyoming"	"56"	"Intentional self-harm"	"X60-X84"	369	1739934	21.2
+	"Wyoming"	"56"	"Assault"	"X85-Y09"	42	1739934	2.4
+	"Wyoming"	"56"	"Event of undetermined intent"	"Y10-Y34"	Suppressed	1739934	Suppressed
+	"Wyoming"	"56"	"Legal intervention and operations of war"	"Y35-Y36"	11	1739934	Unreliable
+"---"
+"Dataset: Provisional Mortality Statistics, 2018 through Last Week"
+"Query Parameters:"
+"UCD - ICD-10 Codes: U01.4 (Terrorism involving firearms); W32 (Handgun discharge); W33 (Rifle, shotgun and larger firearm"
+"discharge); W34 (Discharge from other and unspecified firearms); X72 (Intentional self-harm by handgun discharge); X73"
+"(Intentional self-harm by rifle, shotgun and larger firearm discharge); X74 (Intentional self-harm by other and unspecified"
+"firearm discharge); X93 (Assault by handgun discharge); X94 (Assault by rifle, shotgun and larger firearm discharge); X95"
+"(Assault by other and unspecified firearm discharge); Y22 (Handgun discharge, undetermined intent); Y23 (Rifle, shotgun and"
+"larger firearm discharge, undetermined intent); Y24 (Other and unspecified firearm discharge, undetermined intent); Y35.0 (Legal"
+"intervention involving firearm discharge); Y36.4 (War operations involving firearm discharge and other forms of conventional"
+"warfare)"
+"Year/Month: 2020; 2021; 2022 (provisional)"
+"Group By: Residence State; UCD - ICD Sub-Chapter"
+"Show Totals: Disabled"
+"Show Zero Values: True"
+"Show Suppressed: True"
+"Calculate Rates Per: 100,000"
+"Rate Options: Default intercensal populations for years 2001-2009 (except Infant Age Groups)"
+"---"
+"Help: See http://wonder.cdc.gov/wonder/help/mcd-provisional.html for more information."
+"---"
+"Query Date: Oct 30, 2023 3:16:03 PM"
+"---"
+"Suggested Citation: Centers for Disease Control and Prevention, National Center for Health Statistics. National Vital Statistics"
+"System, Provisional Mortality on CDC WONDER Online Database. Data are from the final Multiple Cause of Death Files, 2018-2021,"
+"and from provisional data for years 2022-2023, as compiled from data provided by the 57 vital statistics jurisdictions through"
+"the Vital Statistics Cooperative Program. Accessed at http://wonder.cdc.gov/mcd-icd10-provisional.html on Oct 30, 2023 3:16:03"
+"PM"
+"---"
+Messages:
+"1. Totals are not available for these results due to suppression constraints. More Information:"
+"http://wonder.cdc.gov/wonder/help/faq.html#Privacy."
+"---"
+Caveats:
+"1. These items in the results table are not fully selected: Provisional assignment of new diseases of uncertain etiology, Other"
+"external causes of accidental injury, Intentional self-harm, Assault, Event of undetermined intent, Legal intervention and"
+"operations of war. The Query Description lists the actual values selected."
+"2. Data are Suppressed when the data meet the criteria for confidentiality constraints. More information:"
+"http://wonder.cdc.gov/wonder/help/mcd-provisional.html#Assurance of Confidentiality."
+"3. Death rates are flagged as Unreliable when the rate is calculated with a numerator of 20 or less. More information:"
+"http://wonder.cdc.gov/wonder/help/mcd-provisional.html#Unreliable."
+"4. The population figures for years 2021 and later are single-race estimates of the July 1 resident population, based on the"
+"Blended Base produced by the US Census Bureau in lieu of the April 1, 2020 decennial population count, from the Vintage 2021"
+"postcensal series released by the Census Bureau on June 30, 2022. The population figures for year 2020 are single-race estimates"
+"of the July 1 resident population, from the Vintage 2020 postcensal series based on April 2010 Census, released by the Census"
+"Bureau on July 27, 2021. The population figures for year 2019 are single-race estimates of the July 1 resident population, from"
+"the Vintage 2019 postcensal series based on April 2010 Census, released by the Census Bureau on June 25, 2020. The population"
+"figures for year 2018 are single-race estimates of the July 1 resident population, from the Vintage 2018 postcensal series based"
+"on April 2010 Census, released by the Census Bureau on June 20, 2019. More information:"
+"http://wonder.cdc.gov/wonder/help/mcd-provisional.html#Population Data."
+"5. The population figures used in the calculation of death rates for the age group 'under 1 year' are the estimates of the"
+"resident population that is under one year of age. More information: http://wonder.cdc.gov/wonder/help/mcd-provisional.html#Age"
+"Group."
+"6. Beginning with the 2018 data, changes have been implemented that affect the counts for ICD-10 cause of death codes O00-O99"
+"compared to previous practice. In addition, data for the cause of death codes O00-O99 for 2003 through 2017 reflect differences"
+"in information available to individual states and probable errors. Deaths with the underlying cause classified with O00-O99 are"
+"subject to further processing before these deaths records are considered final. Provisional deaths have not undergone full"
+"processing and review and therefore should not be considered final for statistical purposes. Caution should be used in"
+"interpreting these data. More information can be found at: https://www.cdc.gov/nchs/maternal-mortality/."
+"7. On March 11, 2021, the 2019 mortality data on CDC WONDER was updated with the 2019 mortality data updated by NCHS on March 4,"
+"2021 to include corrected information for residents of Texas affecting 5 records previously coded to cause code *U01.4,"
+"Terrorism involving firearms (homicide). The underlying and multiple cause of death codes for 5 records were corrected in the"
+"2019 data. Underlying and multiple cause of death codes for those 5 records were recoded to Assault (homicide) by other and"
+"unspecified firearm discharge, ICD-10 code X95. The corrected final death records replaces the data released on December 22,"
+"2020."
+"8. Changes to cause of death classification affect reporting trends. More information:"
+"http://wonder.cdc.gov/wonder/help/mcd-provisional.html#ICD-10 Changes."
+"9. Deaths related to external causes of injury or sudden death: In the provisional mortality data, causes of death classified as"
+"external causes of injury (ICD-10 codes V01-Y89) or sudden deaths (ICD-10 codes R95 and R96) have the cause of death labeled as"
+"'Data not shown due to 6 month lag to account for delays in death certificate completion for certain causes of death.' For these"
+"deaths occurring 24 weeks prior to the final date in the provisional data, the number of deaths and related statistics are not"
+"available by specific cause of death for ICD-10 codes V01-Y89, R95 or R96."
+"10. Deaths occurring through October 14, 2023 as of October 22, 2023."

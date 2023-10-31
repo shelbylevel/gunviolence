@@ -1,0 +1,19 @@
+---
+title: "Untitled"
+format: html
+editor: visual
+---
+
+```{r}
+
+library(tidyverse)
+
+read.delim('/Users/shelbylevel/Downloads/Provisional Mortality Stats 2018 (1)..txt') %>%
+  pivot_wider(
+    value = Deaths,
+    group = UCD...ICD.Sub.Chapter
+      ) -> mortality
+
+
+```
+

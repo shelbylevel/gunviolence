@@ -1,0 +1,33 @@
+---
+title: "Firearm Deaths Fact Sheet"
+format: html
+editor: visual
+---
+
+```{r}
+
+library(tidyverse)
+library(tigris)
+
+```
+
+
+```{r}
+
+read.delim(
+  here::here(
+    "data",
+    "state_firearm_subchapter_2018-22.txt"
+    )
+  ) %>%
+filter(
+  Notes == ''
+) %>%
+mutate(
+    Rate = ((as.numeric(Deaths))/Population)*100000
+) %>%
+select(
+   2:7,9
+   ) -> state
+
+```
