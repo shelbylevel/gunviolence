@@ -1,0 +1,114 @@
+"Notes"	"Residence County"	"Residence County Code"	"UCD - ICD Sub-Chapter"	"UCD - ICD Sub-Chapter Code"	Deaths	Population	Crude Rate
+	"Allen County, OH"	"39003"	"Intentional self-harm"	"X60-X84"	11	101670	Unreliable
+	"Butler County, OH"	"39017"	"Intentional self-harm"	"X60-X84"	38	390234	9.7
+	"Butler County, OH"	"39017"	"Assault"	"X85-Y09"	14	390234	Unreliable
+	"Clark County, OH"	"39023"	"Intentional self-harm"	"X60-X84"	16	135633	Unreliable
+	"Clermont County, OH"	"39025"	"Intentional self-harm"	"X60-X84"	22	209642	10.5
+	"Columbiana County, OH"	"39029"	"Intentional self-harm"	"X60-X84"	13	101310	Unreliable
+	"Cuyahoga County, OH"	"39035"	"Intentional self-harm"	"X60-X84"	82	1249387	6.6
+	"Cuyahoga County, OH"	"39035"	"Assault"	"X85-Y09"	191	1249387	15.3
+	"Delaware County, OH"	"39041"	"Intentional self-harm"	"X60-X84"	15	220740	Unreliable
+	"Fairfield County, OH"	"39045"	"Intentional self-harm"	"X60-X84"	11	161064	Unreliable
+	"Franklin County, OH"	"39049"	"Intentional self-harm"	"X60-X84"	77	1321414	5.8
+	"Franklin County, OH"	"39049"	"Assault"	"X85-Y09"	142	1321414	10.7
+	"Geauga County, OH"	"39055"	"Intentional self-harm"	"X60-X84"	10	95565	Unreliable
+	"Greene County, OH"	"39057"	"Intentional self-harm"	"X60-X84"	12	168412	Unreliable
+	"Hamilton County, OH"	"39061"	"Intentional self-harm"	"X60-X84"	74	826139	9.0
+	"Hamilton County, OH"	"39061"	"Assault"	"X85-Y09"	80	826139	9.7
+	"Hancock County, OH"	"39063"	"Intentional self-harm"	"X60-X84"	10	74656	Unreliable
+	"Jefferson County, OH"	"39081"	"Intentional self-harm"	"X60-X84"	11	64789	Unreliable
+	"Lake County, OH"	"39085"	"Intentional self-harm"	"X60-X84"	19	232023	Unreliable
+	"Lawrence County, OH"	"39087"	"Intentional self-harm"	"X60-X84"	11	57445	Unreliable
+	"Licking County, OH"	"39089"	"Intentional self-harm"	"X60-X84"	11	180401	Unreliable
+	"Lorain County, OH"	"39093"	"Intentional self-harm"	"X60-X84"	27	315595	8.6
+	"Lorain County, OH"	"39093"	"Assault"	"X85-Y09"	14	315595	Unreliable
+	"Lucas County, OH"	"39095"	"Intentional self-harm"	"X60-X84"	33	429191	7.7
+	"Lucas County, OH"	"39095"	"Assault"	"X85-Y09"	49	429191	11.4
+	"Mahoning County, OH"	"39099"	"Intentional self-harm"	"X60-X84"	25	226762	11.0
+	"Mahoning County, OH"	"39099"	"Assault"	"X85-Y09"	25	226762	11.0
+	"Medina County, OH"	"39103"	"Intentional self-harm"	"X60-X84"	13	183092	Unreliable
+	"Miami County, OH"	"39109"	"Intentional self-harm"	"X60-X84"	12	109264	Unreliable
+	"Montgomery County, OH"	"39113"	"Intentional self-harm"	"X60-X84"	63	535840	11.8
+	"Montgomery County, OH"	"39113"	"Assault"	"X85-Y09"	42	535840	7.8
+	"Portage County, OH"	"39133"	"Intentional self-harm"	"X60-X84"	17	162382	Unreliable
+	"Richland County, OH"	"39139"	"Intentional self-harm"	"X60-X84"	22	125195	17.6
+	"Ross County, OH"	"39141"	"Intentional self-harm"	"X60-X84"	10	76891	Unreliable
+	"Stark County, OH"	"39151"	"Intentional self-harm"	"X60-X84"	34	373834	9.1
+	"Stark County, OH"	"39151"	"Assault"	"X85-Y09"	17	373834	Unreliable
+	"Summit County, OH"	"39153"	"Intentional self-harm"	"X60-X84"	35	537633	6.5
+	"Summit County, OH"	"39153"	"Assault"	"X85-Y09"	50	537633	9.3
+	"Trumbull County, OH"	"39155"	"Intentional self-harm"	"X60-X84"	16	201335	Unreliable
+	"Tuscarawas County, OH"	"39157"	"Intentional self-harm"	"X60-X84"	14	92500	Unreliable
+	"Warren County, OH"	"39165"	"Intentional self-harm"	"X60-X84"	16	246553	Unreliable
+	"Washington County, OH"	"39167"	"Intentional self-harm"	"X60-X84"	11	59423	Unreliable
+	"Wood County, OH"	"39173"	"Intentional self-harm"	"X60-X84"	14	132472	Unreliable
+"---"
+"Dataset: Provisional Mortality Statistics, 2018 through Last Week"
+"Query Parameters:"
+"Residence States: Ohio (39)"
+"UCD - ICD-10 Codes: W32 (Handgun discharge); W33 (Rifle, shotgun and larger firearm discharge); W34 (Discharge from other and"
+"unspecified firearms); X72 (Intentional self-harm by handgun discharge); X73 (Intentional self-harm by rifle, shotgun and larger"
+"firearm discharge); X74 (Intentional self-harm by other and unspecified firearm discharge); X93 (Assault by handgun discharge);"
+"X94 (Assault by rifle, shotgun and larger firearm discharge); X95 (Assault by other and unspecified firearm discharge)"
+"Year/Month: 2022 (provisional)"
+"Group By: Residence County; UCD - ICD Sub-Chapter"
+"Show Totals: Disabled"
+"Show Zero Values: False"
+"Show Suppressed: False"
+"Calculate Rates Per: 100,000"
+"Rate Options: Default intercensal populations for years 2001-2009 (except Infant Age Groups)"
+"---"
+"Help: See http://wonder.cdc.gov/wonder/help/mcd-provisional.html for more information."
+"---"
+"Query Date: Nov 9, 2023 4:24:30 PM"
+"---"
+"Suggested Citation: Centers for Disease Control and Prevention, National Center for Health Statistics. National Vital Statistics"
+"System, Provisional Mortality on CDC WONDER Online Database. Data are from the final Multiple Cause of Death Files, 2018-2021,"
+"and from provisional data for years 2022-2023, as compiled from data provided by the 57 vital statistics jurisdictions through"
+"the Vital Statistics Cooperative Program. Accessed at http://wonder.cdc.gov/mcd-icd10-provisional.html on Nov 9, 2023 4:24:30 PM"
+"---"
+Messages:
+"1. Totals are not available for these results due to suppression constraints. More Information:"
+"http://wonder.cdc.gov/wonder/help/faq.html#Privacy."
+"2. Rows with zero Deaths are hidden. Use Quick Options above to show zero rows."
+"3. Rows with suppressed Deaths are hidden. Use Quick Options above to show suppressed rows."
+"---"
+Caveats:
+"1. These items in the results table are not fully selected: Other external causes of accidental injury, Intentional self-harm,"
+"Assault. The Query Description lists the actual values selected."
+"2. Data are Suppressed when the data meet the criteria for confidentiality constraints. More information:"
+"http://wonder.cdc.gov/wonder/help/mcd-provisional.html#Assurance of Confidentiality."
+"3. Death rates are flagged as Unreliable when the rate is calculated with a numerator of 20 or less. More information:"
+"http://wonder.cdc.gov/wonder/help/mcd-provisional.html#Unreliable."
+"4. The population figures for years 2021 and later are single-race estimates of the July 1 resident population, based on the"
+"Blended Base produced by the US Census Bureau in lieu of the April 1, 2020 decennial population count, from the Vintage 2021"
+"postcensal series released by the Census Bureau on June 30, 2022. The population figures for year 2020 are single-race estimates"
+"of the July 1 resident population, from the Vintage 2020 postcensal series based on April 2010 Census, released by the Census"
+"Bureau on July 27, 2021. The population figures for year 2019 are single-race estimates of the July 1 resident population, from"
+"the Vintage 2019 postcensal series based on April 2010 Census, released by the Census Bureau on June 25, 2020. The population"
+"figures for year 2018 are single-race estimates of the July 1 resident population, from the Vintage 2018 postcensal series based"
+"on April 2010 Census, released by the Census Bureau on June 20, 2019. More information:"
+"http://wonder.cdc.gov/wonder/help/mcd-provisional.html#Population Data."
+"5. The population figures used in the calculation of death rates for the age group 'under 1 year' are the estimates of the"
+"resident population that is under one year of age. More information: http://wonder.cdc.gov/wonder/help/mcd-provisional.html#Age"
+"Group."
+"6. Beginning with the 2018 data, changes have been implemented that affect the counts for ICD-10 cause of death codes O00-O99"
+"compared to previous practice. In addition, data for the cause of death codes O00-O99 for 2003 through 2017 reflect differences"
+"in information available to individual states and probable errors. Deaths with the underlying cause classified with O00-O99 are"
+"subject to further processing before these deaths records are considered final. Provisional deaths have not undergone full"
+"processing and review and therefore should not be considered final for statistical purposes. Caution should be used in"
+"interpreting these data. More information can be found at: https://www.cdc.gov/nchs/maternal-mortality/."
+"7. On March 11, 2021, the 2019 mortality data on CDC WONDER was updated with the 2019 mortality data updated by NCHS on March 4,"
+"2021 to include corrected information for residents of Texas affecting 5 records previously coded to cause code *U01.4,"
+"Terrorism involving firearms (homicide). The underlying and multiple cause of death codes for 5 records were corrected in the"
+"2019 data. Underlying and multiple cause of death codes for those 5 records were recoded to Assault (homicide) by other and"
+"unspecified firearm discharge, ICD-10 code X95. The corrected final death records replaces the data released on December 22,"
+"2020."
+"8. Changes to cause of death classification affect reporting trends. More information:"
+"http://wonder.cdc.gov/wonder/help/mcd-provisional.html#ICD-10 Changes."
+"9. Deaths related to external causes of injury or sudden death: In the provisional mortality data, causes of death classified as"
+"external causes of injury (ICD-10 codes V01-Y89) or sudden deaths (ICD-10 codes R95 and R96) have the cause of death labeled as"
+"'Data not shown due to 6 month lag to account for delays in death certificate completion for certain causes of death.' For these"
+"deaths occurring 24 weeks prior to the final date in the provisional data, the number of deaths and related statistics are not"
+"available by specific cause of death for ICD-10 codes V01-Y89, R95 or R96."
+"10. Deaths occurring through October 28, 2023 as of November 05, 2023."

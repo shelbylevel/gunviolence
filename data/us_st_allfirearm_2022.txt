@@ -1,0 +1,233 @@
+"Notes"	"Residence State"	"Residence State Code"	"UCD - ICD Sub-Chapter"	"UCD - ICD Sub-Chapter Code"	Deaths	Population	Crude Rate
+	"Alabama"	"01"	"Other external causes of accidental injury"	"W00-X59"	25	5039877	0.5
+	"Alabama"	"01"	"Intentional self-harm"	"X60-X84"	614	5039877	12.2
+	"Alabama"	"01"	"Assault"	"X85-Y09"	624	5039877	12.4
+	"Alabama"	"01"	"Event of undetermined intent"	"Y10-Y34"	10	5039877	Unreliable
+	"Alaska"	"02"	"Intentional self-harm"	"X60-X84"	114	732673	15.6
+	"Alaska"	"02"	"Assault"	"X85-Y09"	41	732673	5.6
+	"Arizona"	"04"	"Other external causes of accidental injury"	"W00-X59"	13	7276316	Unreliable
+	"Arizona"	"04"	"Intentional self-harm"	"X60-X84"	982	7276316	13.5
+	"Arizona"	"04"	"Assault"	"X85-Y09"	490	7276316	6.7
+	"Arizona"	"04"	"Event of undetermined intent"	"Y10-Y34"	16	7276316	Unreliable
+	"Arizona"	"04"	"Legal intervention and operations of war"	"Y35-Y36"	34	7276316	0.5
+	"Arkansas"	"05"	"Other external causes of accidental injury"	"W00-X59"	14	3025891	Unreliable
+	"Arkansas"	"05"	"Intentional self-harm"	"X60-X84"	341	3025891	11.3
+	"Arkansas"	"05"	"Assault"	"X85-Y09"	290	3025891	9.6
+	"Arkansas"	"05"	"Event of undetermined intent"	"Y10-Y34"	14	3025891	Unreliable
+	"California"	"06"	"Other external causes of accidental injury"	"W00-X59"	18	39237836	Unreliable
+	"California"	"06"	"Intentional self-harm"	"X60-X84"	1692	39237836	4.3
+	"California"	"06"	"Assault"	"X85-Y09"	1678	39237836	4.3
+	"California"	"06"	"Event of undetermined intent"	"Y10-Y34"	15	39237836	Unreliable
+	"California"	"06"	"Legal intervention and operations of war"	"Y35-Y36"	88	39237836	0.2
+	"Colorado"	"08"	"Other external causes of accidental injury"	"W00-X59"	11	5812069	Unreliable
+	"Colorado"	"08"	"Intentional self-harm"	"X60-X84"	691	5812069	11.9
+	"Colorado"	"08"	"Assault"	"X85-Y09"	304	5812069	5.2
+	"Colorado"	"08"	"Legal intervention and operations of war"	"Y35-Y36"	24	5812069	0.4
+	"Connecticut"	"09"	"Intentional self-harm"	"X60-X84"	132	3605597	3.7
+	"Connecticut"	"09"	"Assault"	"X85-Y09"	114	3605597	3.2
+	"Delaware"	"10"	"Intentional self-harm"	"X60-X84"	74	1003384	7.4
+	"Delaware"	"10"	"Assault"	"X85-Y09"	48	1003384	4.8
+	"District of Columbia"	"11"	"Intentional self-harm"	"X60-X84"	12	670050	Unreliable
+	"District of Columbia"	"11"	"Assault"	"X85-Y09"	141	670050	21.0
+	"Florida"	"12"	"Other external causes of accidental injury"	"W00-X59"	19	21781128	Unreliable
+	"Florida"	"12"	"Intentional self-harm"	"X60-X84"	1988	21781128	9.1
+	"Florida"	"12"	"Assault"	"X85-Y09"	1170	21781128	5.4
+	"Florida"	"12"	"Event of undetermined intent"	"Y10-Y34"	25	21781128	0.1
+	"Florida"	"12"	"Legal intervention and operations of war"	"Y35-Y36"	30	21781128	0.1
+	"Georgia"	"13"	"Other external causes of accidental injury"	"W00-X59"	32	10799566	0.3
+	"Georgia"	"13"	"Intentional self-harm"	"X60-X84"	1050	10799566	9.7
+	"Georgia"	"13"	"Assault"	"X85-Y09"	1033	10799566	9.6
+	"Georgia"	"13"	"Event of undetermined intent"	"Y10-Y34"	22	10799566	0.2
+	"Georgia"	"13"	"Legal intervention and operations of war"	"Y35-Y36"	26	10799566	0.2
+	"Hawaii"	"15"	"Intentional self-harm"	"X60-X84"	45	1441553	3.1
+	"Hawaii"	"15"	"Assault"	"X85-Y09"	18	1441553	Unreliable
+	"Idaho"	"16"	"Intentional self-harm"	"X60-X84"	285	1900923	15.0
+	"Idaho"	"16"	"Assault"	"X85-Y09"	38	1900923	2.0
+	"Illinois"	"17"	"Intentional self-harm"	"X60-X84"	676	12671469	5.3
+	"Illinois"	"17"	"Assault"	"X85-Y09"	1091	12671469	8.6
+	"Illinois"	"17"	"Event of undetermined intent"	"Y10-Y34"	10	12671469	Unreliable
+	"Illinois"	"17"	"Legal intervention and operations of war"	"Y35-Y36"	15	12671469	Unreliable
+	"Indiana"	"18"	"Other external causes of accidental injury"	"W00-X59"	21	6805985	0.3
+	"Indiana"	"18"	"Intentional self-harm"	"X60-X84"	692	6805985	10.2
+	"Indiana"	"18"	"Assault"	"X85-Y09"	468	6805985	6.9
+	"Indiana"	"18"	"Event of undetermined intent"	"Y10-Y34"	16	6805985	Unreliable
+	"Indiana"	"18"	"Legal intervention and operations of war"	"Y35-Y36"	14	6805985	Unreliable
+	"Iowa"	"19"	"Intentional self-harm"	"X60-X84"	288	3193079	9.0
+	"Iowa"	"19"	"Assault"	"X85-Y09"	65	3193079	2.0
+	"Kansas"	"20"	"Intentional self-harm"	"X60-X84"	349	2934582	11.9
+	"Kansas"	"20"	"Assault"	"X85-Y09"	127	2934582	4.3
+	"Kentucky"	"21"	"Other external causes of accidental injury"	"W00-X59"	11	4509394	Unreliable
+	"Kentucky"	"21"	"Intentional self-harm"	"X60-X84"	527	4509394	11.7
+	"Kentucky"	"21"	"Assault"	"X85-Y09"	283	4509394	6.3
+	"Kentucky"	"21"	"Legal intervention and operations of war"	"Y35-Y36"	13	4509394	Unreliable
+	"Louisiana"	"22"	"Other external causes of accidental injury"	"W00-X59"	23	4624047	0.5
+	"Louisiana"	"22"	"Intentional self-harm"	"X60-X84"	488	4624047	10.6
+	"Louisiana"	"22"	"Assault"	"X85-Y09"	740	4624047	16.0
+	"Maine"	"23"	"Intentional self-harm"	"X60-X84"	156	1372247	11.4
+	"Maine"	"23"	"Assault"	"X85-Y09"	19	1372247	Unreliable
+	"Maryland"	"24"	"Intentional self-harm"	"X60-X84"	269	6165129	4.4
+	"Maryland"	"24"	"Assault"	"X85-Y09"	539	6165129	8.7
+	"Massachusetts"	"25"	"Intentional self-harm"	"X60-X84"	149	6984723	2.1
+	"Massachusetts"	"25"	"Assault"	"X85-Y09"	106	6984723	1.5
+	"Michigan"	"26"	"Other external causes of accidental injury"	"W00-X59"	10	10050811	Unreliable
+	"Michigan"	"26"	"Intentional self-harm"	"X60-X84"	844	10050811	8.4
+	"Michigan"	"26"	"Assault"	"X85-Y09"	640	10050811	6.4
+	"Minnesota"	"27"	"Intentional self-harm"	"X60-X84"	402	5707390	7.0
+	"Minnesota"	"27"	"Assault"	"X85-Y09"	143	5707390	2.5
+	"Mississippi"	"28"	"Other external causes of accidental injury"	"W00-X59"	13	2949965	Unreliable
+	"Mississippi"	"28"	"Intentional self-harm"	"X60-X84"	300	2949965	10.2
+	"Mississippi"	"28"	"Assault"	"X85-Y09"	511	2949965	17.3
+	"Mississippi"	"28"	"Event of undetermined intent"	"Y10-Y34"	17	2949965	Unreliable
+	"Missouri"	"29"	"Other external causes of accidental injury"	"W00-X59"	20	6168187	0.3
+	"Missouri"	"29"	"Intentional self-harm"	"X60-X84"	806	6168187	13.1
+	"Missouri"	"29"	"Assault"	"X85-Y09"	629	6168187	10.2
+	"Missouri"	"29"	"Event of undetermined intent"	"Y10-Y34"	19	6168187	Unreliable
+	"Missouri"	"29"	"Legal intervention and operations of war"	"Y35-Y36"	15	6168187	Unreliable
+	"Montana"	"30"	"Intentional self-harm"	"X60-X84"	221	1104271	20.0
+	"Montana"	"30"	"Assault"	"X85-Y09"	39	1104271	3.5
+	"Nebraska"	"31"	"Intentional self-harm"	"X60-X84"	185	1963692	9.4
+	"Nebraska"	"31"	"Assault"	"X85-Y09"	48	1963692	2.4
+	"Nevada"	"32"	"Intentional self-harm"	"X60-X84"	422	3143991	13.4
+	"Nevada"	"32"	"Assault"	"X85-Y09"	180	3143991	5.7
+	"New Hampshire"	"33"	"Intentional self-harm"	"X60-X84"	134	1388992	9.6
+	"New Hampshire"	"33"	"Assault"	"X85-Y09"	18	1388992	Unreliable
+	"New Jersey"	"34"	"Intentional self-harm"	"X60-X84"	229	9267130	2.5
+	"New Jersey"	"34"	"Assault"	"X85-Y09"	235	9267130	2.5
+	"New Mexico"	"35"	"Intentional self-harm"	"X60-X84"	306	2115877	14.5
+	"New Mexico"	"35"	"Assault"	"X85-Y09"	218	2115877	10.3
+	"New Mexico"	"35"	"Event of undetermined intent"	"Y10-Y34"	11	2115877	Unreliable
+	"New Mexico"	"35"	"Legal intervention and operations of war"	"Y35-Y36"	29	2115877	1.4
+	"New York"	"36"	"Intentional self-harm"	"X60-X84"	493	19835913	2.5
+	"New York"	"36"	"Assault"	"X85-Y09"	528	19835913	2.7
+	"New York"	"36"	"Legal intervention and operations of war"	"Y35-Y36"	13	19835913	Unreliable
+	"North Carolina"	"37"	"Other external causes of accidental injury"	"W00-X59"	21	10551162	0.2
+	"North Carolina"	"37"	"Intentional self-harm"	"X60-X84"	990	10551162	9.4
+	"North Carolina"	"37"	"Assault"	"X85-Y09"	772	10551162	7.3
+	"North Carolina"	"37"	"Legal intervention and operations of war"	"Y35-Y36"	29	10551162	0.3
+	"North Dakota"	"38"	"Intentional self-harm"	"X60-X84"	104	774948	13.4
+	"North Dakota"	"38"	"Assault"	"X85-Y09"	17	774948	Unreliable
+	"Ohio"	"39"	"Other external causes of accidental injury"	"W00-X59"	14	11780017	Unreliable
+	"Ohio"	"39"	"Intentional self-harm"	"X60-X84"	1046	11780017	8.9
+	"Ohio"	"39"	"Assault"	"X85-Y09"	738	11780017	6.3
+	"Ohio"	"39"	"Legal intervention and operations of war"	"Y35-Y36"	24	11780017	0.2
+	"Oklahoma"	"40"	"Intentional self-harm"	"X60-X84"	539	3986639	13.5
+	"Oklahoma"	"40"	"Assault"	"X85-Y09"	240	3986639	6.0
+	"Oklahoma"	"40"	"Event of undetermined intent"	"Y10-Y34"	10	3986639	Unreliable
+	"Oregon"	"41"	"Intentional self-harm"	"X60-X84"	477	4246155	11.2
+	"Oregon"	"41"	"Assault"	"X85-Y09"	155	4246155	3.7
+	"Oregon"	"41"	"Legal intervention and operations of war"	"Y35-Y36"	21	4246155	0.5
+	"Pennsylvania"	"42"	"Other external causes of accidental injury"	"W00-X59"	13	12964056	Unreliable
+	"Pennsylvania"	"42"	"Intentional self-harm"	"X60-X84"	1060	12964056	8.2
+	"Pennsylvania"	"42"	"Assault"	"X85-Y09"	834	12964056	6.4
+	"Pennsylvania"	"42"	"Event of undetermined intent"	"Y10-Y34"	18	12964056	Unreliable
+	"Pennsylvania"	"42"	"Legal intervention and operations of war"	"Y35-Y36"	16	12964056	Unreliable
+	"Rhode Island"	"44"	"Intentional self-harm"	"X60-X84"	23	1095610	2.1
+	"Rhode Island"	"44"	"Assault"	"X85-Y09"	14	1095610	Unreliable
+	"South Carolina"	"45"	"Other external causes of accidental injury"	"W00-X59"	14	5190705	Unreliable
+	"South Carolina"	"45"	"Intentional self-harm"	"X60-X84"	570	5190705	11.0
+	"South Carolina"	"45"	"Assault"	"X85-Y09"	495	5190705	9.5
+	"South Carolina"	"45"	"Event of undetermined intent"	"Y10-Y34"	15	5190705	Unreliable
+	"South Carolina"	"45"	"Legal intervention and operations of war"	"Y35-Y36"	12	5190705	Unreliable
+	"South Dakota"	"46"	"Intentional self-harm"	"X60-X84"	99	895376	11.1
+	"South Dakota"	"46"	"Assault"	"X85-Y09"	27	895376	3.0
+	"Tennessee"	"47"	"Other external causes of accidental injury"	"W00-X59"	13	6975218	Unreliable
+	"Tennessee"	"47"	"Intentional self-harm"	"X60-X84"	833	6975218	11.9
+	"Tennessee"	"47"	"Assault"	"X85-Y09"	609	6975218	8.7
+	"Tennessee"	"47"	"Event of undetermined intent"	"Y10-Y34"	17	6975218	Unreliable
+	"Texas"	"48"	"Other external causes of accidental injury"	"W00-X59"	45	29527941	0.2
+	"Texas"	"48"	"Intentional self-harm"	"X60-X84"	2644	29527941	9.0
+	"Texas"	"48"	"Assault"	"X85-Y09"	1826	29527941	6.2
+	"Texas"	"48"	"Event of undetermined intent"	"Y10-Y34"	41	29527941	0.1
+	"Texas"	"48"	"Legal intervention and operations of war"	"Y35-Y36"	74	29527941	0.3
+	"Utah"	"49"	"Intentional self-harm"	"X60-X84"	381	3337975	11.4
+	"Utah"	"49"	"Assault"	"X85-Y09"	48	3337975	1.4
+	"Vermont"	"50"	"Intentional self-harm"	"X60-X84"	69	645570	10.7
+	"Vermont"	"50"	"Assault"	"X85-Y09"	13	645570	Unreliable
+	"Virginia"	"51"	"Other external causes of accidental injury"	"W00-X59"	11	8642274	Unreliable
+	"Virginia"	"51"	"Intentional self-harm"	"X60-X84"	722	8642274	8.4
+	"Virginia"	"51"	"Assault"	"X85-Y09"	556	8642274	6.4
+	"Virginia"	"51"	"Event of undetermined intent"	"Y10-Y34"	17	8642274	Unreliable
+	"Washington"	"53"	"Intentional self-harm"	"X60-X84"	665	7738692	8.6
+	"Washington"	"53"	"Assault"	"X85-Y09"	313	7738692	4.0
+	"Washington"	"53"	"Event of undetermined intent"	"Y10-Y34"	14	7738692	Unreliable
+	"Washington"	"53"	"Legal intervention and operations of war"	"Y35-Y36"	26	7738692	0.3
+	"West Virginia"	"54"	"Intentional self-harm"	"X60-X84"	223	1782959	12.5
+	"West Virginia"	"54"	"Assault"	"X85-Y09"	81	1782959	4.5
+	"Wisconsin"	"55"	"Intentional self-harm"	"X60-X84"	529	5895908	9.0
+	"Wisconsin"	"55"	"Assault"	"X85-Y09"	277	5895908	4.7
+	"Wisconsin"	"55"	"Event of undetermined intent"	"Y10-Y34"	13	5895908	Unreliable
+	"Wyoming"	"56"	"Intentional self-harm"	"X60-X84"	104	578803	18.0
+	"Wyoming"	"56"	"Assault"	"X85-Y09"	14	578803	Unreliable
+"---"
+"Dataset: Provisional Mortality Statistics, 2018 through Last Week"
+"Query Parameters:"
+"UCD - ICD-10 Codes: W32 (Handgun discharge); W33 (Rifle, shotgun and larger firearm discharge); W34 (Discharge from other and"
+"unspecified firearms); X72 (Intentional self-harm by handgun discharge); X73 (Intentional self-harm by rifle, shotgun and larger"
+"firearm discharge); X74 (Intentional self-harm by other and unspecified firearm discharge); X93 (Assault by handgun discharge);"
+"X94 (Assault by rifle, shotgun and larger firearm discharge); X95 (Assault by other and unspecified firearm discharge); Y22"
+"(Handgun discharge, undetermined intent); Y23 (Rifle, shotgun and larger firearm discharge, undetermined intent); Y24 (Other and"
+"unspecified firearm discharge, undetermined intent); Y35.0 (Legal intervention involving firearm discharge); Y36.4 (War"
+"operations involving firearm discharge and other forms of conventional warfare)"
+"Year/Month: 2022 (provisional)"
+"Group By: Residence State; UCD - ICD Sub-Chapter"
+"Show Totals: Disabled"
+"Show Zero Values: False"
+"Show Suppressed: False"
+"Calculate Rates Per: 100,000"
+"Rate Options: Default intercensal populations for years 2001-2009 (except Infant Age Groups)"
+"---"
+"Help: See http://wonder.cdc.gov/wonder/help/mcd-provisional.html for more information."
+"---"
+"Query Date: Nov 9, 2023 4:30:27 PM"
+"---"
+"Suggested Citation: Centers for Disease Control and Prevention, National Center for Health Statistics. National Vital Statistics"
+"System, Provisional Mortality on CDC WONDER Online Database. Data are from the final Multiple Cause of Death Files, 2018-2021,"
+"and from provisional data for years 2022-2023, as compiled from data provided by the 57 vital statistics jurisdictions through"
+"the Vital Statistics Cooperative Program. Accessed at http://wonder.cdc.gov/mcd-icd10-provisional.html on Nov 9, 2023 4:30:27 PM"
+"---"
+Messages:
+"1. Totals are not available for these results due to suppression constraints. More Information:"
+"http://wonder.cdc.gov/wonder/help/faq.html#Privacy."
+"2. Rows with zero Deaths are hidden. Use Quick Options above to show zero rows."
+"3. Rows with suppressed Deaths are hidden. Use Quick Options above to show suppressed rows."
+"---"
+Caveats:
+"1. These items in the results table are not fully selected: Other external causes of accidental injury, Intentional self-harm,"
+"Assault, Event of undetermined intent, Legal intervention and operations of war. The Query Description lists the actual values"
+"selected."
+"2. Data are Suppressed when the data meet the criteria for confidentiality constraints. More information:"
+"http://wonder.cdc.gov/wonder/help/mcd-provisional.html#Assurance of Confidentiality."
+"3. Death rates are flagged as Unreliable when the rate is calculated with a numerator of 20 or less. More information:"
+"http://wonder.cdc.gov/wonder/help/mcd-provisional.html#Unreliable."
+"4. The population figures for years 2021 and later are single-race estimates of the July 1 resident population, based on the"
+"Blended Base produced by the US Census Bureau in lieu of the April 1, 2020 decennial population count, from the Vintage 2021"
+"postcensal series released by the Census Bureau on June 30, 2022. The population figures for year 2020 are single-race estimates"
+"of the July 1 resident population, from the Vintage 2020 postcensal series based on April 2010 Census, released by the Census"
+"Bureau on July 27, 2021. The population figures for year 2019 are single-race estimates of the July 1 resident population, from"
+"the Vintage 2019 postcensal series based on April 2010 Census, released by the Census Bureau on June 25, 2020. The population"
+"figures for year 2018 are single-race estimates of the July 1 resident population, from the Vintage 2018 postcensal series based"
+"on April 2010 Census, released by the Census Bureau on June 20, 2019. More information:"
+"http://wonder.cdc.gov/wonder/help/mcd-provisional.html#Population Data."
+"5. The population figures used in the calculation of death rates for the age group 'under 1 year' are the estimates of the"
+"resident population that is under one year of age. More information: http://wonder.cdc.gov/wonder/help/mcd-provisional.html#Age"
+"Group."
+"6. Beginning with the 2018 data, changes have been implemented that affect the counts for ICD-10 cause of death codes O00-O99"
+"compared to previous practice. In addition, data for the cause of death codes O00-O99 for 2003 through 2017 reflect differences"
+"in information available to individual states and probable errors. Deaths with the underlying cause classified with O00-O99 are"
+"subject to further processing before these deaths records are considered final. Provisional deaths have not undergone full"
+"processing and review and therefore should not be considered final for statistical purposes. Caution should be used in"
+"interpreting these data. More information can be found at: https://www.cdc.gov/nchs/maternal-mortality/."
+"7. On March 11, 2021, the 2019 mortality data on CDC WONDER was updated with the 2019 mortality data updated by NCHS on March 4,"
+"2021 to include corrected information for residents of Texas affecting 5 records previously coded to cause code *U01.4,"
+"Terrorism involving firearms (homicide). The underlying and multiple cause of death codes for 5 records were corrected in the"
+"2019 data. Underlying and multiple cause of death codes for those 5 records were recoded to Assault (homicide) by other and"
+"unspecified firearm discharge, ICD-10 code X95. The corrected final death records replaces the data released on December 22,"
+"2020."
+"8. Changes to cause of death classification affect reporting trends. More information:"
+"http://wonder.cdc.gov/wonder/help/mcd-provisional.html#ICD-10 Changes."
+"9. Deaths related to external causes of injury or sudden death: In the provisional mortality data, causes of death classified as"
+"external causes of injury (ICD-10 codes V01-Y89) or sudden deaths (ICD-10 codes R95 and R96) have the cause of death labeled as"
+"'Data not shown due to 6 month lag to account for delays in death certificate completion for certain causes of death.' For these"
+"deaths occurring 24 weeks prior to the final date in the provisional data, the number of deaths and related statistics are not"
+"available by specific cause of death for ICD-10 codes V01-Y89, R95 or R96."
+"10. Deaths occurring through October 28, 2023 as of November 05, 2023."

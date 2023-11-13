@@ -111,7 +111,7 @@ breaks_j <- classIntervals(c(min(homicide$Rate),
 homicide <- mutate(homicide,Breaks=cut(Rate,breaks_j$brks,include.lowest=TRUE))
 
 #Change legend category labels based on breaks
-c('1.2 - 3.2','3.3 - 6.3','6.4 - 21') -> legend.labels
+c('18.4 - 27.4','27.5 - 34.0','34.1 - 59.2') -> legend.labels
 
 #Create map
 ggplot() +

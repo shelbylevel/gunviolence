@@ -1,0 +1,102 @@
+"Notes"	"Residence State"	"Residence State Code"	Deaths	Population	Crude Rate
+	"Alabama"	"01"	1278	5039877	25.4
+	"Alaska"	"02"	164	732673	22.4
+	"Arizona"	"04"	1535	7276316	21.1
+	"Arkansas"	"05"	666	3025891	22.0
+	"California"	"06"	3491	39237836	8.9
+	"Colorado"	"08"	1036	5812069	17.8
+	"Connecticut"	"09"	252	3605597	7.0
+	"Delaware"	"10"	124	1003384	12.4
+	"District of Columbia"	"11"	154	670050	23.0
+	"Florida"	"12"	3232	21781128	14.8
+	"Georgia"	"13"	2163	10799566	20.0
+	"Hawaii"	"15"	66	1441553	4.6
+	"Idaho"	"16"	338	1900923	17.8
+	"Illinois"	"17"	1798	12671469	14.2
+	"Indiana"	"18"	1211	6805985	17.8
+	"Iowa"	"19"	367	3193079	11.5
+	"Kansas"	"20"	493	2934582	16.8
+	"Kentucky"	"21"	840	4509394	18.6
+	"Louisiana"	"22"	1266	4624047	27.4
+	"Maine"	"23"	179	1372247	13.0
+	"Maryland"	"24"	813	6165129	13.2
+	"Massachusetts"	"25"	263	6984723	3.8
+	"Michigan"	"26"	1505	10050811	15.0
+	"Minnesota"	"27"	561	5707390	9.8
+	"Mississippi"	"28"	848	2949965	28.7
+	"Missouri"	"29"	1489	6168187	24.1
+	"Montana"	"30"	274	1104271	24.8
+	"Nebraska"	"31"	244	1963692	12.4
+	"Nevada"	"32"	618	3143991	19.7
+	"New Hampshire"	"33"	156	1388992	11.2
+	"New Jersey"	"34"	468	9267130	5.1
+	"New Mexico"	"35"	571	2115877	27.0
+	"New York"	"36"	1045	19835913	5.3
+	"North Carolina"	"37"	1821	10551162	17.3
+	"North Dakota"	"38"	125	774948	16.1
+	"Ohio"	"39"	1831	11780017	15.5
+	"Oklahoma"	"40"	797	3986639	20.0
+	"Oregon"	"41"	656	4246155	15.4
+	"Pennsylvania"	"42"	1941	12964056	15.0
+	"Rhode Island"	"44"	37	1095610	3.4
+	"South Carolina"	"45"	1106	5190705	21.3
+	"South Dakota"	"46"	141	895376	15.7
+	"Tennessee"	"47"	1480	6975218	21.2
+	"Texas"	"48"	4630	29527941	15.7
+	"Utah"	"49"	446	3337975	13.4
+	"Vermont"	"50"	84	645570	13.0
+	"Virginia"	"51"	1315	8642274	15.2
+	"Washington"	"53"	1022	7738692	13.2
+	"West Virginia"	"54"	312	1782959	17.5
+	"Wisconsin"	"55"	830	5895908	14.1
+	"Wyoming"	"56"	124	578803	21.4
+"Total"			48206	331893745	14.5
+"---"
+"Dataset: Provisional Mortality Statistics, 2018 through Last Week"
+"Query Parameters:"
+"UCD - ICD-10 Codes: W32 (Handgun discharge); W33 (Rifle, shotgun and larger firearm discharge); W34 (Discharge from other and"
+"unspecified firearms); X72 (Intentional self-harm by handgun discharge); X73 (Intentional self-harm by rifle, shotgun and larger"
+"firearm discharge); X74 (Intentional self-harm by other and unspecified firearm discharge); X93 (Assault by handgun discharge);"
+"X94 (Assault by rifle, shotgun and larger firearm discharge); X95 (Assault by other and unspecified firearm discharge); Y22"
+"(Handgun discharge, undetermined intent); Y23 (Rifle, shotgun and larger firearm discharge, undetermined intent); Y24 (Other and"
+"unspecified firearm discharge, undetermined intent); Y35.0 (Legal intervention involving firearm discharge); Y36.4 (War"
+"operations involving firearm discharge and other forms of conventional warfare)"
+"Year/Month: 2022 (provisional)"
+"Group By: Residence State"
+"Show Totals: True"
+"Show Zero Values: False"
+"Show Suppressed: False"
+"Calculate Rates Per: 100,000"
+"Rate Options: Default intercensal populations for years 2001-2009 (except Infant Age Groups)"
+"---"
+"Help: See http://wonder.cdc.gov/wonder/help/mcd-provisional.html for more information."
+"---"
+"Query Date: Nov 9, 2023 4:32:21 PM"
+"---"
+"Suggested Citation: Centers for Disease Control and Prevention, National Center for Health Statistics. National Vital Statistics"
+"System, Provisional Mortality on CDC WONDER Online Database. Data are from the final Multiple Cause of Death Files, 2018-2021,"
+"and from provisional data for years 2022-2023, as compiled from data provided by the 57 vital statistics jurisdictions through"
+"the Vital Statistics Cooperative Program. Accessed at http://wonder.cdc.gov/mcd-icd10-provisional.html on Nov 9, 2023 4:32:21 PM"
+"---"
+Caveats:
+"1. The population figures for years 2021 and later are single-race estimates of the July 1 resident population, based on the"
+"Blended Base produced by the US Census Bureau in lieu of the April 1, 2020 decennial population count, from the Vintage 2021"
+"postcensal series released by the Census Bureau on June 30, 2022. The population figures for year 2020 are single-race estimates"
+"of the July 1 resident population, from the Vintage 2020 postcensal series based on April 2010 Census, released by the Census"
+"Bureau on July 27, 2021. The population figures for year 2019 are single-race estimates of the July 1 resident population, from"
+"the Vintage 2019 postcensal series based on April 2010 Census, released by the Census Bureau on June 25, 2020. The population"
+"figures for year 2018 are single-race estimates of the July 1 resident population, from the Vintage 2018 postcensal series based"
+"on April 2010 Census, released by the Census Bureau on June 20, 2019. More information:"
+"http://wonder.cdc.gov/wonder/help/mcd-provisional.html#Population Data."
+"2. The population figures used in the calculation of death rates for the age group 'under 1 year' are the estimates of the"
+"resident population that is under one year of age. More information: http://wonder.cdc.gov/wonder/help/mcd-provisional.html#Age"
+"Group."
+"3. On March 11, 2021, the 2019 mortality data on CDC WONDER was updated with the 2019 mortality data updated by NCHS on March 4,"
+"2021 to include corrected information for residents of Texas affecting 5 records previously coded to cause code *U01.4,"
+"Terrorism involving firearms (homicide). The underlying and multiple cause of death codes for 5 records were corrected in the"
+"2019 data. Underlying and multiple cause of death codes for those 5 records were recoded to Assault (homicide) by other and"
+"unspecified firearm discharge, ICD-10 code X95. The corrected final death records replaces the data released on December 22,"
+"2020."
+"4. Changes to cause of death classification affect reporting trends. More information:"
+"http://wonder.cdc.gov/wonder/help/mcd-provisional.html#ICD-10 Changes."
+"5. Deaths occurring through October 28, 2023 as of November 05, 2023."

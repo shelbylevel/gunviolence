@@ -1,0 +1,97 @@
+"Notes"	"Residence County"	"Residence County Code"	Deaths	Population	Crude Rate
+	"Adams County, OH"	"39001"	10	27542	Unreliable
+	"Allen County, OH"	"39003"	18	101670	Unreliable
+	"Ashtabula County, OH"	"39007"	11	97337	Unreliable
+	"Butler County, OH"	"39017"	52	390234	13.3
+	"Clark County, OH"	"39023"	25	135633	18.4
+	"Clermont County, OH"	"39025"	27	209642	12.9
+	"Columbiana County, OH"	"39029"	15	101310	Unreliable
+	"Cuyahoga County, OH"	"39035"	276	1249387	22.1
+	"Delaware County, OH"	"39041"	17	220740	Unreliable
+	"Fairfield County, OH"	"39045"	17	161064	Unreliable
+	"Franklin County, OH"	"39049"	221	1321414	16.7
+	"Geauga County, OH"	"39055"	10	95565	Unreliable
+	"Greene County, OH"	"39057"	14	168412	Unreliable
+	"Hamilton County, OH"	"39061"	155	826139	18.8
+	"Hancock County, OH"	"39063"	10	74656	Unreliable
+	"Jefferson County, OH"	"39081"	14	64789	Unreliable
+	"Lake County, OH"	"39085"	23	232023	9.9
+	"Lawrence County, OH"	"39087"	13	57445	Unreliable
+	"Licking County, OH"	"39089"	13	180401	Unreliable
+	"Lorain County, OH"	"39093"	41	315595	13.0
+	"Lucas County, OH"	"39095"	83	429191	19.3
+	"Mahoning County, OH"	"39099"	50	226762	22.0
+	"Marion County, OH"	"39101"	10	65291	Unreliable
+	"Medina County, OH"	"39103"	15	183092	Unreliable
+	"Miami County, OH"	"39109"	13	109264	Unreliable
+	"Montgomery County, OH"	"39113"	106	535840	19.8
+	"Portage County, OH"	"39133"	19	162382	Unreliable
+	"Richland County, OH"	"39139"	27	125195	21.6
+	"Ross County, OH"	"39141"	13	76891	Unreliable
+	"Scioto County, OH"	"39145"	12	73346	Unreliable
+	"Stark County, OH"	"39151"	52	373834	13.9
+	"Summit County, OH"	"39153"	86	537633	16.0
+	"Trumbull County, OH"	"39155"	24	201335	11.9
+	"Tuscarawas County, OH"	"39157"	15	92500	Unreliable
+	"Warren County, OH"	"39165"	18	246553	Unreliable
+	"Washington County, OH"	"39167"	12	59423	Unreliable
+	"Wood County, OH"	"39173"	15	132472	Unreliable
+"Total"			1798	11780017	15.3
+"---"
+"Dataset: Provisional Mortality Statistics, 2018 through Last Week"
+"Query Parameters:"
+"Residence States: Ohio (39)"
+"UCD - ICD-10 Codes: W32 (Handgun discharge); W33 (Rifle, shotgun and larger firearm discharge); W34 (Discharge from other and"
+"unspecified firearms); X72 (Intentional self-harm by handgun discharge); X73 (Intentional self-harm by rifle, shotgun and larger"
+"firearm discharge); X74 (Intentional self-harm by other and unspecified firearm discharge); X93 (Assault by handgun discharge);"
+"X94 (Assault by rifle, shotgun and larger firearm discharge); X95 (Assault by other and unspecified firearm discharge)"
+"Year/Month: 2022 (provisional)"
+"Group By: Residence County"
+"Show Totals: True"
+"Show Zero Values: False"
+"Show Suppressed: False"
+"Calculate Rates Per: 100,000"
+"Rate Options: Default intercensal populations for years 2001-2009 (except Infant Age Groups)"
+"---"
+"Help: See http://wonder.cdc.gov/wonder/help/mcd-provisional.html for more information."
+"---"
+"Query Date: Nov 10, 2023 2:22:33 PM"
+"---"
+"Suggested Citation: Centers for Disease Control and Prevention, National Center for Health Statistics. National Vital Statistics"
+"System, Provisional Mortality on CDC WONDER Online Database. Data are from the final Multiple Cause of Death Files, 2018-2021,"
+"and from provisional data for years 2022-2023, as compiled from data provided by the 57 vital statistics jurisdictions through"
+"the Vital Statistics Cooperative Program. Accessed at http://wonder.cdc.gov/mcd-icd10-provisional.html on Nov 10, 2023 2:22:33"
+"PM"
+"---"
+Messages:
+"1. Rows with zero Deaths are hidden, but the Population values in those rows are included in the totals. Use Quick Options above"
+"to show zero rows."
+"2. Rows with suppressed Deaths are hidden, but the Deaths and Population values in those rows are included in the totals. Use"
+"Quick Options above to show suppressed rows."
+"---"
+Caveats:
+"1. Data are Suppressed when the data meet the criteria for confidentiality constraints. More information:"
+"http://wonder.cdc.gov/wonder/help/mcd-provisional.html#Assurance of Confidentiality."
+"2. Death rates are flagged as Unreliable when the rate is calculated with a numerator of 20 or less. More information:"
+"http://wonder.cdc.gov/wonder/help/mcd-provisional.html#Unreliable."
+"3. The population figures for years 2021 and later are single-race estimates of the July 1 resident population, based on the"
+"Blended Base produced by the US Census Bureau in lieu of the April 1, 2020 decennial population count, from the Vintage 2021"
+"postcensal series released by the Census Bureau on June 30, 2022. The population figures for year 2020 are single-race estimates"
+"of the July 1 resident population, from the Vintage 2020 postcensal series based on April 2010 Census, released by the Census"
+"Bureau on July 27, 2021. The population figures for year 2019 are single-race estimates of the July 1 resident population, from"
+"the Vintage 2019 postcensal series based on April 2010 Census, released by the Census Bureau on June 25, 2020. The population"
+"figures for year 2018 are single-race estimates of the July 1 resident population, from the Vintage 2018 postcensal series based"
+"on April 2010 Census, released by the Census Bureau on June 20, 2019. More information:"
+"http://wonder.cdc.gov/wonder/help/mcd-provisional.html#Population Data."
+"4. The population figures used in the calculation of death rates for the age group 'under 1 year' are the estimates of the"
+"resident population that is under one year of age. More information: http://wonder.cdc.gov/wonder/help/mcd-provisional.html#Age"
+"Group."
+"5. On March 11, 2021, the 2019 mortality data on CDC WONDER was updated with the 2019 mortality data updated by NCHS on March 4,"
+"2021 to include corrected information for residents of Texas affecting 5 records previously coded to cause code *U01.4,"
+"Terrorism involving firearms (homicide). The underlying and multiple cause of death codes for 5 records were corrected in the"
+"2019 data. Underlying and multiple cause of death codes for those 5 records were recoded to Assault (homicide) by other and"
+"unspecified firearm discharge, ICD-10 code X95. The corrected final death records replaces the data released on December 22,"
+"2020."
+"6. Changes to cause of death classification affect reporting trends. More information:"
+"http://wonder.cdc.gov/wonder/help/mcd-provisional.html#ICD-10 Changes."
+"7. Deaths occurring through October 28, 2023 as of November 05, 2023."
