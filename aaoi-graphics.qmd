@@ -1,0 +1,316 @@
+---
+title: "nonprofit data"
+format: html
+editor: visual
+---
+
+```{r setup, include=FALSE }
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning=FALSE, include = FALSE, cache = FALSE)
+```
+
+```{r packages, include=FALSE}
+library(tidyverse)
+library(stringr)
+library(scales)
+library(zoo)
+library(sjmisc)
+library(janitor)
+library(dplyr)
+library(tidycensus)
+library(tigris)
+library(sf)
+library(dplyr)
+library(classInt)
+
+```
+
+```{r get-acs}
+
+get_acs(
+  geography = "state",
+  variables = "B01001_001",
+  year = 2021,
+  survey = "acs1",
+  geometry = TRUE,
+  resolution = "20m"
+) %>%
+  shift_geometry() %>%
+  mutate(
+    GEOID=as.integer(GEOID)
+    ) %>%
+  filter(
+    NAME!="Puerto Rico"
+    ) -> state
+
+get_acs(
+ geography = "county",
+ state = 39,
+ variables = "B01001_001",
+ geometry = TRUE) %>%
+  mutate(
+    GEOID=as.integer(GEOID)
+    ) -> county
+
+```
+
+
+```{r us2022-clean, include=TRUE}
+
+read.delim(here::here(
+  'data',
+  'us_st_allfirearm_aggregate_2022.txt'
+  )) %>% 
+  mutate(
+    Rate=(Deaths/Population)*100000
+    ) %>%
+  filter(Notes==''
+  ) %>%
+  rename(
+    GEOID=Residence.State.Code,
+    State = Residence.State
+    )-> us22
+
+us22$Notes = NULL
+
+state %>%
+left_join(
+  us22, 
+  by='GEOID') -> us22
+
+```
+
+```{r us2022-map}
+
+#Create data breaks
+breaks_j <- classIntervals(c(min(us22$Rate),       
+                             us22$Rate),n=3,        
+                           style="quantile")              
+
+us22 <- mutate(us22,Breaks=cut(Rate,breaks_j$brks,include.lowest=TRUE))
+
+#Change legend category labels based on breaks
+c('3.4 - 13.4','13.5 - 17.8','17.9 - 28.7') -> legend.labels
+
+#Create map
+ggplot() +
+  
+  #ggtitle("Diabetes Deaths by State, 2022") +
+  
+  geom_sf(data = us22, aes(fill = Breaks), color = "black",size=.4, alpha=1) +
+  
+  scale_fill_manual(values=c("#D4C4DA",
+                             
+                             "#A889B6",
+                             
+                             "#7A5689"), na.value = "white", drop = FALSE, name="Rate per 100,000 population", label=legend.labels) +
+  
+  
+  #geom_sf_text(data=State,aes(label= Code), color = "black", size = 2.5, vjust = -.5) +
+  #geom_sf_text(data=State,aes(label= round(Rate,2)), color = "black", size = 2.5, vjust = 1.2) +
+  
+  theme_void() +
+  
+  theme(
+        axis.title.x=element_blank(),
+        axis.text.x=element_blank(),
+        axis.ticks.x=element_blank()) +
+  theme(axis.title.y=element_blank(),
+        axis.text.y=element_blank(),
+        axis.ticks.y=element_blank()) +
+  theme(legend.position = 'bottom')
+
+```
+
+```{r us2022-bar, include=TRUE, fig.height=9, fig.width = 8}
+
+#Create rank variable based on rate
+us22 %>% mutate(Rank = dense_rank(Rate)) -> us22
+
+#Sort by high to low rate
+us22$State <- factor(us22$State) %>% 
+  fct_reorder(us22$Rate)
+
+#Create horizontal bar chart
+ggplot(us22,aes(x=State, 
+                    y=Rate, 
+                    fill=Rate)) + 
+  geom_col(alpha=0.75) +   	#Alpha controls density of color, 
+  
+  #ggtitle("Diabetes Deaths by State, 2022") +
+  
+  #Creates breaks in graph & controls limits(min/max)
+  #scale_y_continuous(limits = c(-0.2, 0.7), breaks = c(-0.2,-0.1,0,0.1,0.2,0.3,0.4,0.5,0.6,0.7)) +
+  
+  #Flips graph from vertical bars to horizontal
+  coord_flip() +
+  labs(caption = "", 
+       y="Rate per 100,000 population",    		#Legend titles
+       x="") +
+  
+  #Create fill gradient in bars
+  scale_fill_gradient(name="Label",
+                      low = "#D4C4DA",
+                      high = "#573D62") + 	
+  
+  #Create average line
+  geom_hline(yintercept = mean(us22$Rate), color="grey40", linewidth=1, alpha=.5) +
+  annotate('text', x=5, y = 16.1, color='grey40', fontface='bold', label="National Average") +
+  
+  #Control rate numbers on graph
+  geom_text(aes(label=round(Rate,1)), color='black', size=3, fontface="bold", hjust=1.2, vjust=.35) +
+  
+  #Control graph theme
+  theme_minimal() +
+  theme(axis.text.x = element_text(color="gray20", 
+                                   size=10),
+        axis.text.y = element_text(color="black", 
+                                   size=10)) +
+  theme(legend.position = 'none')
+```
+
+```{r oh2022-clean, include=TRUE}
+
+read.delim(here::here(
+  'data',
+  'oh_cty_top3_aggregate_2022.txt'
+  )) %>% 
+  mutate(
+    Rate=(Deaths/Population)*100000,
+    County = stringr::str_remove_all(Residence.County, " County, OH")
+    ) %>%
+  filter(Notes=='',
+         County != 'NA'
+  ) %>%
+  rename(
+    GEOID=Residence.County.Code
+    ) -> oh22
+
+oh22$Notes = NULL
+
+county %>%
+left_join(
+  oh22, 
+  by='GEOID') -> oh22
+
+```
+
+```{r oh2022-map}
+
+#Create data breaks
+breaks_j <- classIntervals(c(min(oh22$Rate),       
+                             oh22$Rate),n=3,        
+                           style="quantile")              
+
+oh22 <- mutate(oh22,Breaks=cut(Rate,breaks_j$brks,include.lowest=TRUE))
+
+#Change legend category labels based on breaks
+c('3.6 - 7.9','8 - 11','11.1 - 19.1') -> legend.labels
+
+#Create map
+ggplot() +
+  
+  #ggtitle("Diabetes Deaths by State, 2022") +
+  
+  geom_sf(data = oh22, aes(fill = Breaks), color = "black",size=.4, alpha=1) +
+  
+  scale_fill_manual(values=c("#D4C4DA",
+                             
+                             "#A889B6",
+                             
+                             "#7A5689"), na.value = "white", drop = FALSE, name="Rate per 100,000 population", label=legend.labels) +
+  
+  
+  #geom_sf_text(data=State,aes(label= Code), color = "black", size = 2.5, vjust = -.5) +
+  #geom_sf_text(data=State,aes(label= round(Rate,2)), color = "black", size = 2.5, vjust = 1.2) +
+  
+  theme_void() +
+  
+  theme(
+        axis.title.x=element_blank(),
+        axis.text.x=element_blank(),
+        axis.ticks.x=element_blank()) +
+  theme(axis.title.y=element_blank(),
+        axis.text.y=element_blank(),
+        axis.ticks.y=element_blank()) +
+  theme(legend.position = 'bottom')
+
+```
+
+```{r oh2022-bar, include=TRUE, fig.height=9, fig.width = 8}
+
+#Create rank variable based on rate
+oh22 %>% 
+  filter(
+    Residence.County != 'NA'
+    ) %>%
+  mutate(
+    Rank = dense_rank(Rate)
+  ) -> oh22
+
+#Sort by high to low rate
+oh22$County <- factor(oh22$County) %>% 
+  fct_reorder(oh22$Rate)
+
+#Create horizontal bar chart
+ggplot(oh22,aes(x=County, 
+                    y=Rate, 
+                    fill=Rate)) + 
+  geom_col(alpha=0.75) +   	#Alpha controls density of color, 
+  
+  #ggtitle("Diabetes Deaths by State, 2022") +
+  
+  #Creates breaks in graph & controls limits(min/max)
+  #scale_y_continuous(limits = c(-0.2, 0.7), breaks = c(-0.2,-0.1,0,0.1,0.2,0.3,0.4,0.5,0.6,0.7)) +
+  
+  #Flips graph from vertical bars to horizontal
+  coord_flip() +
+  labs(caption = "", 
+       y="Rate per 100,000 population",    		#Legend titles
+       x="") +
+  
+  #Create fill gradient in bars
+  scale_fill_gradient(name="Label",
+                      low = "#D4C4DA",
+                      high = "#573D62") + 	
+  
+  #Create average line
+  geom_hline(yintercept = mean(oh22$Rate), color="grey40", linewidth=1, alpha=.5) +
+  annotate('text', x=5, y = 15.7, color='grey40', fontface='bold', label="State Average") +
+  
+  #Control rate numbers on graph
+  geom_text(aes(label=round(Rate,1)), color='black', size=3, fontface="bold", hjust=1.2, vjust=.35) +
+  
+  #Control graph theme
+  theme_minimal() +
+  theme(axis.text.x = element_text(color="gray20", 
+                                   size=10),
+        axis.text.y = element_text(color="black", 
+                                   size=10)) +
+  theme(legend.position = 'none')
+```
+
+```{r oh2022-top3-clean, include=TRUE}
+
+read.delim(here::here(
+  'data',
+  'oh_cty_top3_2022.txt'
+  )) %>% 
+  mutate(
+    Rate=(Deaths/Population)*100000,
+    County = stringr::str_remove_all(Residence.County, " County, OH")
+    ) %>%
+  filter(Notes=='',
+         County %in% c('Lawrence', 'Cuyahoga', 'Mahoning', 'Jefferson', 'Richland')
+  ) %>%
+  rename(
+    GEOID=Residence.County.Code
+    ) -> oh22
+
+oh22$Notes = NULL
+
+county %>%
+left_join(
+  oh22, 
+  by='GEOID') -> oh22
+
+```
