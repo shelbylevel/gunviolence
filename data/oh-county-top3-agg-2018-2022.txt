@@ -1,0 +1,142 @@
+"Notes"	"Residence County"	"Residence County Code"	Deaths	Population	Crude Rate
+	"Adams County, OH"	"39001"	33	138037	23.9
+	"Allen County, OH"	"39003"	77	510334	15.1
+	"Ashland County, OH"	"39005"	24	265223	9.0
+	"Ashtabula County, OH"	"39007"	69	485921	14.2
+	"Athens County, OH"	"39009"	29	320738	9.0
+	"Auglaize County, OH"	"39011"	20	229422	8.7
+	"Belmont County, OH"	"39013"	42	332141	12.6
+	"Brown County, OH"	"39015"	25	217772	11.5
+	"Butler County, OH"	"39017"	226	1931628	11.7
+	"Carroll County, OH"	"39019"	17	134274	Unreliable
+	"Champaign County, OH"	"39021"	24	193997	12.4
+	"Clark County, OH"	"39023"	137	673527	20.3
+	"Clermont County, OH"	"39025"	134	1038627	12.9
+	"Clinton County, OH"	"39027"	28	209954	13.3
+	"Columbiana County, OH"	"39029"	76	508286	15.0
+	"Coshocton County, OH"	"39031"	36	182914	19.7
+	"Crawford County, OH"	"39033"	26	207890	12.5
+	"Cuyahoga County, OH"	"39035"	1324	6205586	21.3
+	"Darke County, OH"	"39037"	27	256835	10.5
+	"Defiance County, OH"	"39039"	14	190318	Unreliable
+	"Delaware County, OH"	"39041"	67	1069037	6.3
+	"Erie County, OH"	"39043"	42	372304	11.3
+	"Fairfield County, OH"	"39045"	80	795193	10.1
+	"Fayette County, OH"	"39047"	11	143582	Unreliable
+	"Franklin County, OH"	"39049"	1066	6594508	16.2
+	"Fulton County, OH"	"39051"	18	211191	Unreliable
+	"Gallia County, OH"	"39053"	31	147995	20.9
+	"Geauga County, OH"	"39055"	41	472081	8.7
+	"Greene County, OH"	"39057"	73	843878	8.7
+	"Guernsey County, OH"	"39059"	26	193250	13.5
+	"Hamilton County, OH"	"39061"	726	4104420	17.7
+	"Hancock County, OH"	"39063"	35	376432	9.3
+	"Hardin County, OH"	"39065"	19	155556	Unreliable
+	"Harrison County, OH"	"39067"	13	74182	Unreliable
+	"Henry County, OH"	"39069"	11	136072	Unreliable
+	"Highland County, OH"	"39071"	29	216231	13.4
+	"Hocking County, OH"	"39073"	24	140938	17.0
+	"Holmes County, OH"	"39075"	11	220398	Unreliable
+	"Huron County, OH"	"39077"	37	291483	12.7
+	"Jackson County, OH"	"39079"	28	162312	17.3
+	"Jefferson County, OH"	"39081"	63	325609	19.3
+	"Knox County, OH"	"39083"	32	312432	10.2
+	"Lake County, OH"	"39085"	115	1154278	10.0
+	"Lawrence County, OH"	"39087"	48	293310	16.4
+	"Licking County, OH"	"39089"	91	891533	10.2
+	"Logan County, OH"	"39091"	30	228426	13.1
+	"Lorain County, OH"	"39093"	188	1562656	12.0
+	"Lucas County, OH"	"39095"	387	2144923	18.0
+	"Madison County, OH"	"39097"	24	222475	10.8
+	"Mahoning County, OH"	"39099"	230	1137924	20.2
+	"Marion County, OH"	"39101"	47	325751	14.4
+	"Medina County, OH"	"39103"	78	905988	8.6
+	"Meigs County, OH"	"39105"	22	112789	19.5
+	"Mercer County, OH"	"39107"	Suppressed	208023	Suppressed
+	"Miami County, OH"	"39109"	48	539253	8.9
+	"Monroe County, OH"	"39111"	13	67688	Unreliable
+	"Montgomery County, OH"	"39113"	496	2667308	18.6
+	"Morgan County, OH"	"39115"	12	70781	Unreliable
+	"Morrow County, OH"	"39117"	22	176153	12.5
+	"Muskingum County, OH"	"39119"	48	431234	11.1
+	"Noble County, OH"	"39121"	Suppressed	71494	Suppressed
+	"Ottawa County, OH"	"39123"	25	201755	12.4
+	"Paulding County, OH"	"39125"	12	93822	Unreliable
+	"Perry County, OH"	"39127"	29	179302	16.2
+	"Pickaway County, OH"	"39129"	26	293867	8.8
+	"Pike County, OH"	"39131"	24	137712	17.4
+	"Portage County, OH"	"39133"	85	812740	10.5
+	"Preble County, OH"	"39135"	19	204449	Unreliable
+	"Putnam County, OH"	"39137"	Suppressed	169931	Suppressed
+	"Richland County, OH"	"39139"	88	613534	14.3
+	"Ross County, OH"	"39141"	46	383799	12.0
+	"Sandusky County, OH"	"39143"	28	293098	9.6
+	"Scioto County, OH"	"39145"	46	371855	12.4
+	"Seneca County, OH"	"39147"	31	275135	11.3
+	"Shelby County, OH"	"39149"	27	241508	11.2
+	"Stark County, OH"	"39151"	263	1859620	14.1
+	"Summit County, OH"	"39153"	436	2697063	16.2
+	"Trumbull County, OH"	"39155"	152	996071	15.3
+	"Tuscarawas County, OH"	"39157"	54	460939	11.7
+	"Union County, OH"	"39159"	18	306786	Unreliable
+	"Van Wert County, OH"	"39161"	Suppressed	142179	Suppressed
+	"Vinton County, OH"	"39163"	19	64588	Unreliable
+	"Warren County, OH"	"39165"	105	1198293	8.8
+	"Washington County, OH"	"39167"	33	298564	11.1
+	"Wayne County, OH"	"39169"	50	580791	8.6
+	"Williams County, OH"	"39171"	26	183493	14.2
+	"Wood County, OH"	"39173"	56	657570	8.5
+	"Wyandot County, OH"	"39175"	Suppressed	108834	Suppressed
+"Total"			8503	58631793	14.5
+"---"
+"Dataset: Provisional Mortality Statistics, 2018 through Last Week"
+"Query Parameters:"
+"Residence States: Ohio (39)"
+"UCD - ICD-10 Codes: W32 (Handgun discharge); W33 (Rifle, shotgun and larger firearm discharge); W34 (Discharge from other and"
+"unspecified firearms); X72 (Intentional self-harm by handgun discharge); X73 (Intentional self-harm by rifle, shotgun and larger"
+"firearm discharge); X74 (Intentional self-harm by other and unspecified firearm discharge); X93 (Assault by handgun discharge);"
+"X94 (Assault by rifle, shotgun and larger firearm discharge); X95 (Assault by other and unspecified firearm discharge)"
+"Year/Month: 2018; 2019; 2020; 2021; 2022 (provisional)"
+"Group By: Residence County"
+"Show Totals: True"
+"Show Zero Values: False"
+"Show Suppressed: True"
+"Calculate Rates Per: 100,000"
+"Rate Options: Default intercensal populations for years 2001-2009 (except Infant Age Groups)"
+"---"
+"Help: See http://wonder.cdc.gov/wonder/help/mcd-provisional.html for more information."
+"---"
+"Query Date: Nov 28, 2023 12:14:11 PM"
+"---"
+"Suggested Citation: Centers for Disease Control and Prevention, National Center for Health Statistics. National Vital Statistics"
+"System, Provisional Mortality on CDC WONDER Online Database. Data are from the final Multiple Cause of Death Files, 2018-2021,"
+"and from provisional data for years 2022-2023, as compiled from data provided by the 57 vital statistics jurisdictions through"
+"the Vital Statistics Cooperative Program. Accessed at http://wonder.cdc.gov/mcd-icd10-provisional.html on Nov 28, 2023 12:14:11"
+"PM"
+"---"
+Caveats:
+"1. Data are Suppressed when the data meet the criteria for confidentiality constraints. More information:"
+"http://wonder.cdc.gov/wonder/help/mcd-provisional.html#Assurance of Confidentiality."
+"2. Death rates are flagged as Unreliable when the rate is calculated with a numerator of 20 or less. More information:"
+"http://wonder.cdc.gov/wonder/help/mcd-provisional.html#Unreliable."
+"3. The population figures for years 2021 and later are single-race estimates of the July 1 resident population, based on the"
+"Blended Base produced by the US Census Bureau in lieu of the April 1, 2020 decennial population count, from the Vintage 2021"
+"postcensal series released by the Census Bureau on June 30, 2022. The population figures for year 2020 are single-race estimates"
+"of the July 1 resident population, from the Vintage 2020 postcensal series based on April 2010 Census, released by the Census"
+"Bureau on July 27, 2021. The population figures for year 2019 are single-race estimates of the July 1 resident population, from"
+"the Vintage 2019 postcensal series based on April 2010 Census, released by the Census Bureau on June 25, 2020. The population"
+"figures for year 2018 are single-race estimates of the July 1 resident population, from the Vintage 2018 postcensal series based"
+"on April 2010 Census, released by the Census Bureau on June 20, 2019. More information:"
+"http://wonder.cdc.gov/wonder/help/mcd-provisional.html#Population Data."
+"4. The population figures used in the calculation of death rates for the age group 'under 1 year' are the estimates of the"
+"resident population that is under one year of age. More information: http://wonder.cdc.gov/wonder/help/mcd-provisional.html#Age"
+"Group."
+"5. On March 11, 2021, the 2019 mortality data on CDC WONDER was updated with the 2019 mortality data updated by NCHS on March 4,"
+"2021 to include corrected information for residents of Texas affecting 5 records previously coded to cause code *U01.4,"
+"Terrorism involving firearms (homicide). The underlying and multiple cause of death codes for 5 records were corrected in the"
+"2019 data. Underlying and multiple cause of death codes for those 5 records were recoded to Assault (homicide) by other and"
+"unspecified firearm discharge, ICD-10 code X95. The corrected final death records replaces the data released on December 22,"
+"2020."
+"6. Changes to cause of death classification affect reporting trends. More information:"
+"http://wonder.cdc.gov/wonder/help/mcd-provisional.html#ICD-10 Changes."
+"7. Deaths occurring through November 11, 2023 as of November 19, 2023."
