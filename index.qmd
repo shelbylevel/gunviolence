@@ -120,7 +120,7 @@ ggplot() +
 
 ```
 
-```{r us2022-map-gradient, include = TRUE}
+```{r us2022-map-gradient}
 
 ggplot() +
   
@@ -203,7 +203,7 @@ ggplot(us22,aes(x=State,
   theme(legend.position = 'none')
 ```
 
-# Firearm Deaths (Suicide, Assault, and Accident) by County, 2022
+# Firearm Deaths (Suicide, Assault, and Accident) by County, 2018-2022
 
 ```{r oh1822-clean}
 
@@ -271,7 +271,7 @@ ggplot() +
 
 ```
 
-```{r oh2022-map-gradient, include = TRUE, fig.height=8, fig.width = 8}
+```{r oh2022-map-gradient, fig.height=8, fig.width = 8}
 
 ggplot() +
   
