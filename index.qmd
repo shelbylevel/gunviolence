@@ -20,6 +20,7 @@ library(tigris)
 library(sf)
 library(dplyr)
 library(classInt)
+library(readxl)
 
 ```
 
@@ -297,78 +298,6 @@ ggplot() +
 
 ```
 
-# Suicide by Firearm Deaths by County, 2022
-
-```{r oh2022-bar, include=TRUE, fig.height = 12, fig.width = 8}
-
-#Create rank variable based on rate
-oh1822 %>% 
-  filter(
-    Rate != 'NA'
-    ) %>%
-  mutate(
-    Rank = dense_rank(Rate)
-  ) -> oh1822
-
-#Sort by high to low rate
-oh1822$County <- factor(oh1822$County) %>% 
-  fct_reorder(oh1822$Rate)
-
-#Create horizontal bar chart
-ggplot(oh1822,aes(x=County, 
-                    y=Rate, 
-                    fill=Rate)) + 
-  geom_col(alpha=0.75) +   	#Alpha controls density of color, 
-  
-  #ggtitle("Diabetes Deaths by State, 2022") +
-  
-  #Creates breaks in graph & controls limits(min/max)
-  #scale_y_continuous(limits = c(-0.2, 0.7), breaks = c(-0.2,-0.1,0,0.1,0.2,0.3,0.4,0.5,0.6,0.7)) +
-  
-  #Flips graph from vertical bars to horizontal
-  coord_flip() +
-  labs(caption = "", 
-       y="Rate per 100,000 population",    		#Legend titles
-       x="") +
-  
-  #Create fill gradient in bars
-  scale_fill_gradient(name="Label",
-                      low = "#D4C4DA",
-                      high = "#573D62") + 	
-  
-  #Create average line
-  geom_hline(
-    yintercept = mean(oh1822$Rate),
-    color="grey40",
-    linewidth=1,
-    alpha=.5) +
-  annotate(
-    'text',
-    x=5,
-    y = 13.65,
-    color='grey40',
-    fontface='bold',
-    label="State Average") +
-  
-  #Control rate numbers on graph
-  geom_text(
-    aes(
-      label=round(Rate,1)),
-    color='black',
-    size=2,
-    fontface="bold",
-    hjust=1.2,
-    vjust=.35) +
-  
-  #Control graph theme
-  theme_minimal() +
-  theme(axis.text.x = element_text(color="gray20", 
-                                   size=10),
-        axis.text.y = element_text(color="black", 
-                                   size=9)) +
-  theme(legend.position = 'none')
-```
-
 # Firearm Deaths (Suicide, Assault, and Accident) by Subregion, 2022
 
 ```{r map6-clean}
@@ -517,6 +446,259 @@ oh_regions %>%
         axis.ticks.y=element_blank()) +
   theme(legend.position = 'bottom')
 
+```
+
+# Firearm Deaths (Suicide, Assault, and Accident) by County Type, 2018-2022
+
+```{r cty-type-1822}
+
+read.delim(here::here(
+  'data',
+  'oh-county-top3-agg-2018-2022.txt'
+  )) %>% 
+  mutate(
+    Deaths = as.numeric(Deaths),
+    Rate=(Deaths/Population)*100000,
+    County = stringr::str_remove_all(Residence.County, " County, OH")
+    ) %>%
+  filter(Notes=='',
+         County != 'NA'
+  ) %>%
+  rename(
+    GEOID=Residence.County.Code
+    ) -> oh1822
+
+oh1822$Notes = NULL
+
+readxl::read_excel(here::here(
+  'data',
+  'County Typologies.xlsx'
+  )) -> types
+
+oh1822 %>%
+  left_join(
+    types,
+    by = 'County'
+    ) %>%
+  filter(
+    Rate != 'NA'
+    ) -> oh1822
+
+
+oh1822 %>%
+    group_by(`OMAS County Type`) %>%
+  summarise(
+    Type.Rate = mean(Rate, na.rm = TRUE)
+  ) %>%
+  ggplot(
+  aes(
+    x = `OMAS County Type`,
+    y = Type.Rate,
+    fill = `OMAS County Type`
+    )) + 
+  geom_col(
+    alpha=0.75, 
+    fill = c('#573D62', '#7A5689', '#B79DC2', '#D4C4DA')
+    ) +  
+  labs(caption = "", 
+       y="Rate per 100,000 population",
+       x="") +
+  
+  geom_text(
+    aes(
+      label = round(Type.Rate,1)),
+    color = 'black',
+    size = 4,
+    fontface = "bold",
+    vjust = 1.8) +
+  
+  theme_minimal() +
+  theme(
+    text = element_text(),
+    axis.text.x = element_text(color="gray20", 
+                                   size = 10.5),
+        axis.text.y = element_text(color="black", 
+                                   size = 10)) +
+  theme(legend.position = 'none')
+
+```
+
+# Firearm Deaths (Suicide, Assault, and Accident) by County Type, 2022
+
+```{r cty-types-agg2}
+
+library(readxl)
+
+read.delim(here::here(
+  'data',
+  'oh-metro-top3-agg-yr-2018-22.txt'
+  )) %>% 
+  mutate(
+    Rate = (Deaths/Population)*100000
+    ) %>%
+  filter(Notes == ''
+  ) %>%
+  mutate(
+    Notes = 'Metropolitan'
+    ) -> metro
+
+read.delim(here::here(
+  'data',
+  'oh-suburb-top3-agg-yr-2018-22.txt'
+  )) %>% 
+  mutate(
+    Rate = (Deaths/Population)*100000
+    ) %>%
+  filter(Notes == ''
+  ) %>%
+  mutate(
+    Notes = 'Suburban'
+    ) -> suburb
+
+read.delim(here::here(
+  'data',
+  'oh-ruralapp-top3-agg-yr-2018-22.txt'
+  )) %>% 
+  mutate(
+    Rate = (Deaths/Population)*100000
+    ) %>%
+  filter(Notes == ''
+  ) %>%
+  mutate(
+    Notes = 'Rural Appalachian'
+    ) -> ruralapp
+
+read.delim(here::here(
+  'data',
+  'oh-ruralnonapp-top3-agg-yr-2018-22.txt'
+  )) %>% 
+  mutate(
+    Rate = (Deaths/Population)*100000
+    ) %>%
+  filter(Notes == ''
+  ) %>%
+  mutate(
+    Notes = 'Rural Non-Appalachian'
+    ) -> ruralnonapp
+
+rbind(metro, suburb, ruralapp, ruralnonapp) -> oh_types_agg
+
+```
+
+```{r cty-types-agg2-bar, include=TRUE}
+
+oh_types_agg %>%
+    filter(
+      Year.Code == 2022
+    ) -> oh_types_agg
+
+oh_types_agg$Notes <- factor(oh_types_agg$Notes) %>% 
+  fct_reorder(-oh_types_agg$Rate)
+
+oh_types_agg %>%
+  ggplot(
+  aes(
+    x = Notes,
+    y = Rate,
+    fill = Notes
+    )) + 
+  geom_col(
+    alpha=0.75, 
+    fill = c('#7A5689', '#B79DC2', '#573D62', '#D4C4DA')
+    ) +  
+  labs(caption = "", 
+       y="Rate per 100,000 population",
+       x="") +
+  
+  geom_text(
+    aes(
+      label = round(Rate,1)),
+    color = 'black',
+    size = 4,
+    fontface = "bold",
+    vjust = 1.8) +
+  
+  theme_minimal() +
+  theme(
+    text = element_text(),
+    axis.text.x = element_text(color="gray20", 
+                                   size = 10.5),
+        axis.text.y = element_text(color="black", 
+                                   size = 10)) +
+  theme(legend.position = 'none')
+
+```
+
+# Firearm Deaths (Suicide, Assault, and Accident) by County, 2018-2022
+
+```{r oh2022-bar, include=TRUE, fig.height = 12, fig.width = 8}
+
+#Create rank variable based on rate
+oh1822 %>% 
+  filter(
+    Rate != 'NA'
+    ) %>%
+  mutate(
+    Rank = dense_rank(Rate)
+  ) -> oh1822
+
+#Sort by high to low rate
+oh1822$County <- factor(oh1822$County) %>% 
+  fct_reorder(oh1822$Rate)
+
+#Create horizontal bar chart
+ggplot(oh1822,aes(x=County, 
+                    y=Rate, 
+                    fill=Rate)) + 
+  geom_col(alpha=0.75) +   	#Alpha controls density of color, 
+  
+  #ggtitle("Diabetes Deaths by State, 2022") +
+  
+  #Creates breaks in graph & controls limits(min/max)
+  #scale_y_continuous(limits = c(-0.2, 0.7), breaks = c(-0.2,-0.1,0,0.1,0.2,0.3,0.4,0.5,0.6,0.7)) +
+  
+  #Flips graph from vertical bars to horizontal
+  coord_flip() +
+  labs(caption = "", 
+       y="Rate per 100,000 population",    		#Legend titles
+       x="") +
+  
+  #Create fill gradient in bars
+  scale_fill_gradient(name="Label",
+                      low = "#D4C4DA",
+                      high = "#573D62") + 	
+  
+  #Create average line
+  geom_hline(
+    yintercept = mean(oh1822$Rate),
+    color="grey40",
+    linewidth=1,
+    alpha=.5) +
+  annotate(
+    'text',
+    x=5,
+    y = 13.65,
+    color='grey40',
+    fontface='bold',
+    label="State Average") +
+  
+  #Control rate numbers on graph
+  geom_text(
+    aes(
+      label=round(Rate,1)),
+    color='black',
+    size=2,
+    fontface="bold",
+    hjust=1.2,
+    vjust=.35) +
+  
+  #Control graph theme
+  theme_minimal() +
+  theme(axis.text.x = element_text(color="gray20", 
+                                   size=10),
+        axis.text.y = element_text(color="black", 
+                                   size=9)) +
+  theme(legend.position = 'none')
 ```
 
 # Suicide by Firearm Deaths by Subregion, 2022
@@ -764,6 +946,112 @@ oh22_suicide %>%
 
 ```
 
+# Suicide by Firearm Deaths by County Type, 2022
+
+```{r cty-types-clean}
+
+library(readxl)
+
+read.delim(here::here(
+  'data',
+  'oh-metro-top3-2022.txt'
+  )) %>% 
+  mutate(
+    Rate = (Deaths/Population)*100000
+    ) %>%
+  filter(Notes == ''
+  ) %>%
+  mutate(
+    Notes = 'Metropolitan'
+    ) -> metro
+
+read.delim(here::here(
+  'data',
+  'oh-suburb-top3-2022.txt'
+  )) %>% 
+  mutate(
+    Rate = (Deaths/Population)*100000
+    ) %>%
+  filter(Notes == ''
+  ) %>%
+  mutate(
+    Notes = 'Suburban'
+    ) -> suburb
+
+read.delim(here::here(
+  'data',
+  'oh-ruralapp-top3-2022.txt'
+  )) %>% 
+  mutate(
+    Rate = (Deaths/Population)*100000
+    ) %>%
+  filter(Notes == ''
+  ) %>%
+  mutate(
+    Notes = 'Rural Appalachian'
+    ) -> ruralapp
+
+read.delim(here::here(
+  'data',
+  'oh-ruralnonapp-top3-2022.txt'
+  )) %>% 
+  mutate(
+    Rate = (Deaths/Population)*100000
+    ) %>%
+  filter(Notes == ''
+  ) %>%
+  mutate(
+    Notes = 'Rural Non-Appalachian'
+    ) -> ruralnonapp
+
+rbind(metro, suburb, ruralapp, ruralnonapp) -> oh_types
+
+```
+
+```{r suicide-cty-types-bar, include=TRUE}
+
+oh_types %>%
+    filter(
+      UCD...ICD.Sub.Chapter == 'Intentional self-harm'
+    ) -> types_suicide
+
+types_suicide$Notes <- factor(types_suicide$Notes) %>% 
+  fct_reorder(-types_suicide$Rate)
+
+types_suicide %>%
+  ggplot(
+  aes(
+    x = Notes,
+    y = Rate,
+    fill = Notes
+    )) + 
+  geom_col(
+    alpha=0.75, 
+    fill = c('#7A5689', '#B79DC2', '#573D62', '#D4C4DA')
+    ) +  
+  labs(caption = "", 
+       y="Rate per 100,000 population",
+       x="") +
+  
+  geom_text(
+    aes(
+      label = round(Rate,1)),
+    color = 'black',
+    size = 4,
+    fontface = "bold",
+    vjust = 1.8) +
+  
+  theme_minimal() +
+  theme(
+    text = element_text(),
+    axis.text.x = element_text(color="gray20", 
+                                   size = 10.5),
+        axis.text.y = element_text(color="black", 
+                                   size = 10)) +
+  theme(legend.position = 'none')
+
+```
+
 # Assault by Firearm Deaths by Subregion, 2022
 
 ```{r map8-clean}
@@ -918,6 +1206,52 @@ oh_regions_assault %>%
         axis.text.y=element_blank(),
         axis.ticks.y=element_blank()) +
   theme(legend.position = 'bottom')
+
+```
+
+# Assault by Firearm Deaths by County Type, 2022
+
+```{r assault-cty-types-bar, include=TRUE}
+
+oh_types %>%
+    filter(
+      UCD...ICD.Sub.Chapter == 'Assault'
+    ) -> types_assault
+
+types_assault$Notes <- factor(types_assault$Notes) %>% 
+  fct_reorder(-types_assault$Rate)
+
+types_assault %>%
+  ggplot(
+  aes(
+    x = Notes,
+    y = Rate,
+    fill = Notes
+    )) + 
+  geom_col(
+    alpha=0.75, 
+    fill = c('#7A5689', '#B79DC2', '#573D62', '#D4C4DA')
+    ) +  
+  labs(caption = "", 
+       y="Rate per 100,000 population",
+       x="") +
+  
+  geom_text(
+    aes(
+      label = round(Rate,1)),
+    color = 'black',
+    size = 4,
+    fontface = "bold",
+    vjust = 1.8) +
+  
+  theme_minimal() +
+  theme(
+    text = element_text(),
+    axis.text.x = element_text(color="gray20", 
+                                   size = 10.5),
+        axis.text.y = element_text(color="black", 
+                                   size = 10)) +
+  theme(legend.position = 'none')
 
 ```
 
